@@ -51,7 +51,23 @@
     padding: 5%;
     text-align: center;
 }
+@media (max-width:885PX) {
+    .shippingIcons {
+       
+        margin: 18% 0 0 10%;
+    }
 
+    .shippingIcons2 {
+       
+        margin-top: 16%;
+        margin-left: -37%;
+    }
+    
+    .titleShipping {
+       
+    font-family: "Lato";
+    }
+}
 @media (max-width:575PX) {
     .shippingIcons {
         width: 20%;
