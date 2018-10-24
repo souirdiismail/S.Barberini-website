@@ -10,8 +10,8 @@ body {
 
 header {
     width: 100%;
-    background: url(../assets/bg.png) no-repeat 50% 50%;
-    background-size: 100% 100vh;
+    background: url(../assets/bg.png) no-repeat center;
+    background-size: contain 100vh;
     background-position-y: 0;
     background-repeat: no-repeat;
 }
@@ -21,6 +21,7 @@ header {
     height: 100%;
     max-height: 128px;
     max-width: 330px;
+    float: right;
 }
 
 .navbar {
@@ -163,6 +164,9 @@ a:hover+.line .focusedline {
 @media (max-width:400px){
     .products{
         font-size:6vw;
+    }
+    .club24hl{
+        font-size:15vw;
     }
 }
 
