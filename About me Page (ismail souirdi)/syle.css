@@ -4,7 +4,7 @@
 }
 
 .header {
-    background: url('Assets/header background.png') no-repeat center;
+    background: url('Assets/background-profile-page.png') no-repeat center;
     background-size: cover
 }
 
@@ -215,7 +215,26 @@ hr {
 @media (max-width:450PX) {
 
     .portrait {
-        
+        width: 320px;
+        height: 200px;
+       margin-left: 12px;
+    }
+    .stroke {
+        width: 328px;
+        height: 208.8px;
+        margin-left: 8px;
+        margin-top: 5px;
     }
 
+    .text {
+
+        font-size: 12px;
+        font-family: "Lato";
+        color: rgb(0, 0, 0);
+        font-weight: bold;
+        line-height: 1.2;
+        text-align: center;
+        padding: 3px 15px 3px 15px;
+    
+    }
 }
