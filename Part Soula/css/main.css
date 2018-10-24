@@ -1,0 +1,186 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:300,400,700');
+
+html,
+body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    font-family: "Lato";
+}
+
+header {
+    width: 100%;
+    background: url(../assets/bg.png) no-repeat 50% 50%;
+    background-size: 100% 1080px;
+    background-position-y: 0;
+    background-repeat: no-repeat;
+}
+
+.logo {
+    width: 100%;
+    height: 100%;
+    max-height: 128px;
+    max-width: 330px;
+}
+
+.navbar {
+    padding-top: 0px !important;
+    padding-bottom: 0px !important;
+    background: rgb(0, 192, 193);
+}
+
+nav ul li a {
+    font-weight: bold;
+}
+
+.line {
+    stroke: transparent;
+    height: 2px;
+    margin-top: -1.5rem;
+}
+
+.line .focusedline {
+    stroke: white;
+    opacity: 0;
+    transition: all 0.2s;
+    stroke-dasharray: 0, 20;
+    stroke-dashoffset: -20;
+}
+
+a:hover+.line .focusedline {
+    opacity: 1;
+    stroke-dasharray: 40, 0;
+    stroke-dashoffset: 0;
+}
+
+.nav-item {
+    align-self: center;
+    padding: 0px 10px;
+    text-transform: uppercase;
+    line-height: 1.2;
+    text-align: center;
+    z-index: 21;
+    padding-bottom: 10px;
+    margin-bottom: -2rem; 
+}
+
+.nav-link {
+    font-size: 17px;
+    font-family: "Lato";
+    font-weight: 300;
+    color: rgb(255, 255, 255) !important;
+}
+
+.club24hl {
+    font-size: 9vw;
+    font-family: "Atelier Omega";
+    color: rgb(255, 255, 255);
+    line-height: 1.2;
+    text-align: center;
+    z-index: 12;
+    padding-top: 130px;
+}
+
+.botomborder {
+    border-bottom: solid 1px #93a2b3;
+    width: 80vw;
+    margin-bottom: 100px;
+    padding-bottom: 20px;
+}
+
+.NON_C_È_TEMPO_MIGLIORE_DI_ORA_PER_INIZIARE__VIV {
+    font-size: 2vw;
+    font-weight: 300;
+    font-family: "Lato";
+    color: rgb(255, 255, 255);
+    text-transform: uppercase;
+    line-height: 1.2;
+    text-align: center;
+    z-index: 13;
+    padding-top: 60px;
+    max-width: 920px;
+    margin: 0 auto;
+    padding-bottom: 85px;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.bordered {
+    border: 1px white solid;
+    border-radius: 50px;
+    min-width: fit-content;
+    padding-bottom: 0px !important;
+    margin-top: -2rem;
+}
+
+.products {
+    color: rgb(255, 255, 255) !important;
+    border-radius: 3px;
+    background-image: -moz-linear-gradient(45deg, rgb(0, 192, 193) 0%, rgb(0, 197, 167) 100%);
+    background-image: -webkit-linear-gradient(45deg, rgb(0, 192, 193) 0%, rgb(0, 197, 167) 100%);
+    background-image: -ms-linear-gradient(45deg, rgb(0, 192, 193) 0%, rgb(0, 197, 167) 100%);
+    box-shadow: 0px 5px 15px 0px rgba(0, 0, 0, 0.2);
+    z-index: 15;
+    width: 100%;
+    height: 60px;
+    font-size: 25px;
+    text-transform: uppercase;
+    /* padding: 20px 25px; */
+    max-width: 320px;
+}
+
+.email{
+    height: 60px;
+    width: 100%;
+}
+
+@media (max-width:1150px) {
+    .nav-item {
+        margin-left: 0px;
+        margin-right: 0px;
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+}
+
+@media (max-width:991px) {
+    .bordered {
+        padding: 0px 10px !important;
+        margin-top: 5px;
+        margin-bottom: 5px;
+    }
+    .NON_C_È_TEMPO_MIGLIORE_DI_ORA_PER_INIZIARE__VIV{
+        font-size: 20px;
+    }
+    .club24hl{
+        font-size: 100px;
+    }
+
+}
+
+@media (max-width:400px){
+    .products{
+        font-size:6vw;
+    }
+}
+
+.carousel-indicators li {
+    width: 10px;
+    height: 10px;
+    border-radius: 100%;
+}
+
+.carousel-indicators {
+    bottom: 3.5vw !important;
+}
+
+.section2 {
+    margin-top: 150px;
+}
+
+.herbaimg {
+    width: 100%;
+    max-width: 508px;
+}
