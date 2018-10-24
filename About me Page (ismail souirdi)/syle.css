@@ -123,10 +123,12 @@ section .section-title {
     text-transform: uppercase;
 }
 
-/*#footer {
+#footer {
     
-    background-image: -webkit-linear-gradient( 45deg, rgb(30,122,163) 0%, rgb(30, 134, 150) 100%) !important;
-}*/
+    /*background-image: -webkit-linear-gradient( 45deg, rgb(30,122,163) 0%, rgb(30, 134, 150) 100%) !important;*/
+    background: url('Assets/background footer.png') no-repeat center;
+    background-size: cover
+}
 #footer h5 {
     padding-left: 10px;
     border-left: 3px solid #eeeeee;
