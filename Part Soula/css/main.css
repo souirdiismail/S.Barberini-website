@@ -11,7 +11,7 @@ body {
 header {
     width: 100%;
     background: url(../assets/bg.png) no-repeat 50% 50%;
-    background-size: 100% 1080px;
+    background-size: 100% 100vh;
     background-position-y: 0;
     background-repeat: no-repeat;
 }
@@ -98,7 +98,7 @@ a:hover+.line .focusedline {
     text-align: center;
     z-index: 13;
     padding-top: 60px;
-    max-width: 920px;
+    max-width: 90vw;
     margin: 0 auto;
     padding-bottom: 85px;
 }
@@ -178,6 +178,10 @@ a:hover+.line .focusedline {
 
 .section2 {
     margin-top: 150px;
+}
+
+.section1 {
+    max-width: 100%;
 }
 
 .herbaimg {
