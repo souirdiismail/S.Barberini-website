@@ -8,6 +8,10 @@ body {
     font-family: "Lato";
 }
 
+body {
+    overflow-x: hidden;
+}
+
 .header {
     width: 100%;
     height: 100vh;
@@ -64,7 +68,7 @@ a:hover+.line .focusedline {
     text-align: center;
     z-index: 21;
     padding-bottom: 10px;
-    margin-bottom: -2rem; 
+    margin-bottom: -2rem;
 }
 
 .nav-link {
@@ -84,7 +88,7 @@ a:hover+.line .focusedline {
     padding-top: 130px;
 }
 
-.productbutton{
+.productbutton {
     font-family: "Lato";
     line-height: 1.2;
     font-size: 2vw;
@@ -98,17 +102,17 @@ a:hover+.line .focusedline {
     height: 10%;
     bottom: 15%;
     right: 20%;
-    color:#f4f4f4;
-    padding:0px !important;
+    color: #f4f4f4;
+    padding: 0px !important;
 }
 
-.arrow{
+.arrow {
     margin-top: -3%;
     margin-right: -3%;
     width: 15%;
 }
 
-.whitebordercarousel{
+.whitebordercarousel {
     border: 10px solid #f4f4f4;
     border-radius: 10px;
     width: 95%;
@@ -123,7 +127,7 @@ a:hover+.line .focusedline {
     padding-bottom: 20px;
 }
 
-center{
+center {
     padding-top: 50px;
     background: white;
 }
@@ -171,7 +175,7 @@ center{
     max-width: 320px;
 }
 
-.email{
+.email {
     height: 60px;
     width: 100%;
 }
@@ -191,45 +195,58 @@ center{
         margin-top: 5px;
         margin-bottom: 5px;
     }
-    .NON_C_È_TEMPO_MIGLIORE_DI_ORA_PER_INIZIARE__VIV{
+
+    .NON_C_È_TEMPO_MIGLIORE_DI_ORA_PER_INIZIARE__VIV {
         font-size: 20px;
     }
-    .club24hl{
+
+    .club24hl {
         font-size: 100px;
     }
 
 }
 
-@media (max-width:400px){
-    .products{
-        font-size:6vw;
+@media (max-width:400px) {
+    .products {
+        font-size: 6vw;
     }
-    .club24hl{
-        font-size:15vw;
+
+    .club24hl {
+        font-size: 15vw;
     }
-    .logo{
-        width :50vw;
+
+    .logo {
+        width: 50vw;
+    }
+
+    .whitebordercarousel {
+        border-radius: 2vw;
+        border-width: 1.4vw;
     }
 }
 
-@media(max-width:242px){
-    .logo{
-        width :40vw;
+@media(max-width:242px) {
+    .logo {
+        width: 40vw;
     }
-    .navbuton{
+
+    .navbuton {
         width: 15%;
-        padding:0px;
+        padding: 0px;
     }
 }
 
-@media (max-width:200px){
-.section1 {
-    padding :0;
+@media (max-width:200px) {
+    .section1 {
+        padding: 0;
+    }
+
+    .box1 {
+        padding: 0;
+    }
+
 }
-.box1{
-    padding: 0;
-}
-}
+
 .carousel-indicators li {
     width: 100%;
     height: 10px;
@@ -255,4 +272,3 @@ center{
     width: 100%;
     max-width: 508px;
 }
-
