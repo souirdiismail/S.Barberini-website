@@ -1,10 +1,313 @@
 @import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
-body{
-  padding-top: 1000px;
-  
+@import url('https://fonts.googleapis.com/css?family=Lato:300,400,700');
+
+html,
+body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
     font-family: "Lato";
-    
 }
+
+body {
+    overflow-x: hidden;
+}
+
+/*CSS SOulayman*/
+
+.header {
+    width: 100%;
+    height: 100vh;
+    background: url(../assets/bg.png) no-repeat center;
+    background-size: cover;
+    background-position-y: 0;
+    background-repeat: no-repeat;
+}
+
+.logo {
+    width: 90%;
+    height: 100%;
+    max-height: 128px;
+    max-width: 330px;
+    float: right;
+}
+
+.navbar {
+    padding-top: 0px !important;
+    padding-bottom: 0px !important;
+    /* background: rgb(0, 192, 193); */
+}
+
+nav ul li a {
+    font-weight: bold;
+}
+
+
+.line {
+    stroke: transparent;
+    height: 2px;
+    margin-top: -1.5rem;
+    vertical-align: middle;
+}
+
+.line .focusedline {
+    stroke: white;
+    opacity: 0;
+    transition: all 0.2s;
+    stroke-dasharray: 0, 20;
+    stroke-dashoffset: -20;
+}
+
+a:hover+.line .focusedline {
+    opacity: 1;
+    stroke-dasharray: 40, 0;
+    stroke-dashoffset: 0;
+}
+
+.nav-item {
+    align-self: center;
+    padding: 0px 10px;
+    text-transform: uppercase;
+    line-height: 1.2;
+    text-align: center;
+    z-index: 21;
+    padding-bottom: 10px;
+    margin-bottom: -2rem;
+}
+
+.nav-link {
+    font-size: 17px;
+    font-family: "Lato";
+    font-weight: 300;
+    color: rgb(255, 255, 255) !important;
+}
+
+.club24hl {
+    font-size: 9vw;
+    font-family: "Atelier Omega";
+    color: rgb(255, 255, 255);
+    line-height: 1.2;
+    text-align: center;
+    z-index: 12;
+    padding-top: 10vh;
+}
+
+.productbutton {
+    font-family: "Lato";
+    line-height: 1.2;
+    font-size: 2vw;
+    background: transparent;
+    border: solid #f4f4f4 0.1vw;
+    border-radius: 0;
+    position: absolute;
+    text-align: center;
+    text-justify: center;
+    width: 22%;
+    height: 10%;
+    bottom: 15%;
+    right: 20%;
+    color: #f4f4f4;
+    padding: 0px !important;
+}
+
+.arrow {
+    margin-top: -3%;
+    margin-right: -3%;
+    width: 15%;
+}
+
+.whitebordercarousel {
+    border: 10px solid #f4f4f4;
+    border-radius: 10px;
+    width: 95%;
+    margin: 0 auto;
+    box-shadow: 0px 2px 70px 0px rgba(6, 29, 71, 0.25);
+}
+
+.botomborder {
+    border-bottom: solid 1px #93a2b3;
+    width: 80vw;
+    margin-bottom: 100px;
+    padding-bottom: 20px;
+}
+
+center {
+    padding-top: 50px;
+    background: white;
+}
+
+.NON_C_È_TEMPO_MIGLIORE_DI_ORA_PER_INIZIARE__VIV {
+    font-size: 2vw;
+    font-weight: 300;
+    font-family: "Lato";
+    color: rgb(255, 255, 255);
+    text-transform: uppercase;
+    line-height: 1.2;
+    text-align: center;
+    z-index: 13;
+    padding-top: 5vh;
+    max-width: 90vw;
+    margin: 0 auto;
+    padding-bottom: 6vh;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.bordered {
+    border: 1px white solid;
+    border-radius: 50px;
+    min-width: fit-content;
+    padding-bottom: 0px !important;
+    margin-top: -2rem;
+}
+
+.products {
+    color: rgb(255, 255, 255) !important;
+    border-radius: 3px;
+    background-image: -moz-linear-gradient(45deg, rgb(0, 192, 193) 0%, rgb(0, 197, 167) 100%);
+    background-image: -webkit-linear-gradient(45deg, rgb(0, 192, 193) 0%, rgb(0, 197, 167) 100%);
+    background-image: -ms-linear-gradient(45deg, rgb(0, 192, 193) 0%, rgb(0, 197, 167) 100%);
+    box-shadow: 0px 5px 15px 0px rgba(0, 0, 0, 0.2);
+    z-index: 15 !important;
+    width: 10vw !important;
+    min-width: 200px !important;
+    min-height: 45px !important;
+    font-size: 20px !important;
+    padding: 0px 20px !important;
+    height: 60px !important;
+    text-transform: uppercase !important;
+}
+
+.form_sub{
+    margin-right: -5px;
+    margin-left: -5px;
+}
+
+.header .col-12{
+    padding-right: 5px !important;
+    padding-left: 5px!important;
+}
+.email {
+    padding-left: 20px !important;
+    height: 40px !important;
+    min-width: 200px !important;
+    font-size: 20px !important;
+    min-height: 60px !important;
+    max-width: 40vw !important;
+    width: 100% !important;
+    vertical-align: middle !important;
+}
+
+@media (max-width:1150px) {
+    .nav-item {
+        margin-left: 0px;
+        margin-right: 0px;
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+}
+
+@media (max-width:991px) {
+    .bordered {
+        padding: 0px 10px !important;
+        margin-top: 5px;
+        margin-bottom: 5px;
+    }
+
+    .NON_C_È_TEMPO_MIGLIORE_DI_ORA_PER_INIZIARE__VIV {
+        font-size: 20px;
+    }
+
+    .club24hl {
+        font-size: 100px;
+    }
+
+}
+
+@media (max-width:400px) {
+    .products {
+        font-size: 6vw;
+    }
+
+    .club24hl {
+        font-size: 15vw;
+    }
+
+    .logo {
+        width: 50vw;
+    }
+
+    .whitebordercarousel {
+        border-radius: 2vw;
+        border-width: 1.4vw;
+    }
+}
+
+@media(max-width:242px) {
+    .logo {
+        width: 40vw;
+    }
+
+    .navbuton {
+        width: 15%;
+        padding: 0px;
+    }
+}
+
+@media (max-width:200px) {
+    .section1 {
+        padding: 0 !important;
+    }
+
+    .box1 {
+        padding: 0 !important;
+    }
+
+}
+
+@media (min-width:2000px)
+{
+    .box2{
+        max-width: 80vw !important;
+    }
+    .box1{
+        max-width: 80vw !important;
+    }
+    .email{
+        height: 70px;
+        font-size: 20px;
+    }
+}
+
+.carousel-indicators li {
+    width: 100%;
+    height: 10px;
+    max-width: 10px;
+    max-height: 10px;
+    border-radius: 100%;
+}
+
+.carousel-indicators {
+    bottom: 1vw !important;
+    margin-bottom: 0px;
+}
+
+.section2 {
+    margin-top: -14vw;
+}
+
+.section1 {
+    max-width: 100%;
+}
+
+.herbaimg {
+    width: 100%;
+    max-width: 508px;
+}
+
+/*End Css Soulayman*/
 
 /* Starting Products Features */
 .Products_features {
