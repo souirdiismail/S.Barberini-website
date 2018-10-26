@@ -10,13 +10,14 @@
 
 
 .bordered {
-    border: 1px white solid;
+    border: 1px #1b568a solid;
     border-radius: 50px;
     min-width: fit-content;
     padding: 0px 20px 0px 20px;
 }
 .navbar{
     background: #fff;
+    box-shadow: 0px 12px 95px 0px rgba(0, 0, 0, 0.22);
 }
 .nav-item {
     align-self: center;
@@ -25,15 +26,15 @@
     line-height: 1.2;
     text-align: center;
     color: white !important;
-    font-weight: lighter;
+    font-weight: normal;
 }
 
 ul[data-num="5"] li[data-num="5"] a {
-    color: white !important;
+    color: rgba(27,86,138,1) !important;
 }
 
 .current {
-    border-bottom: solid 1px white;
+    border-bottom: solid 1px #1b568a;
 
 }
 
