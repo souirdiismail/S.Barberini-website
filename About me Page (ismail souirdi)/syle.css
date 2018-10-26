@@ -15,7 +15,9 @@
     min-width: fit-content;
     padding: 0px 20px 0px 20px;
 }
-
+.navbar{
+    background: #fff;
+}
 .nav-item {
     align-self: center;
     padding: 0px 10px;
