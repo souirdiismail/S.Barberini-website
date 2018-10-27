@@ -6,10 +6,10 @@
                 <div class="col-xs-12 col-sm-4 col-md-4">
                     <h5>Sections</h5>
                     <ul class="list-unstyled quick-links">
-                        <li><a href="#"><i class="fa fa-angle-double-right"></i>Home</a></li>
-                        <li><a href="#"><i class="fa fa-angle-double-right"></i>Productto</a></li>
-                        <li><a href="#"><i class="fa fa-angle-double-right"></i>About</a></li>
-                        <li><a href="#"><i class="fa fa-angle-double-right"></i>Blog</a></li>
+                        <li><a href="index"><i class="fa fa-angle-double-right"></i>Home</a></li>
+                        <li><a href="<?php if($pageName=='index'){echo '#Prodotto';}else{ echo 'index#Prodotto';}?>"><i class="fa fa-angle-double-right"></i>Productto</a></li>
+                        <li><a href="chi sono"><i class="fa fa-angle-double-right"></i>About</a></li>
+                        <li><a href="Video"><i class="fa fa-angle-double-right"></i>Blog</a></li>
 
                     </ul>
                 </div>
@@ -24,7 +24,7 @@
                     <h5>Legal</h5>
                     <ul class="list-unstyled quick-links">
                         <li><a href="#"><i class="fa fa-angle-double-right"></i>Privacy policy</a></li>
-                        <li><a href="#"><i class="fa fa-angle-double-right"></i>Cookies</a></li>
+                        <li><a href="cookies"><i class="fa fa-angle-double-right"></i>Cookies</a></li>
 
 
                     </ul>
