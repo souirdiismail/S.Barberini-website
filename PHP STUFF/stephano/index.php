@@ -26,10 +26,9 @@
             </div>
         </section>
         <!-- END SECTION CLUB24HL -->
-
     </header>
     <!-- END HEADER -->
-
+    
     <!-- SLIDERS -->
     <section class="slides section2">
         <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
