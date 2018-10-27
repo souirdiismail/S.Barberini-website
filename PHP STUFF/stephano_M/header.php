@@ -1,6 +1,11 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
-
+<?php  $currentFile = $_SERVER["PHP_SELF"];
+  $parts = Explode('/', $currentFile);
+  $parts = $parts[count($parts) - 1];
+  $parts = Explode('.', $parts);
+  $pageName = $parts[0];
+    ?>
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -54,7 +59,7 @@
                         </svg>
                     </li>
                     <li class="nav-item mx-2">
-                        <a class="nav-link" href="#chi_sono">Chi sono</a>
+                        <a class="nav-link" href="<?php if($pageName=='index'){echo '#chi_sono';}else{ echo 'chi sono';}?>">Chi sono</a>
                         <svg class="line" viewBox="0 0 40 1" preserveAspectRatio="none">
                             <path d="M0 1 L40 1" />
                             <path d="M0 1 L40 1" class="focusedline" />
@@ -82,11 +87,7 @@
         </nav>
     </div>
     <div class="big-title" style="<?php 
-         $currentFile = $_SERVER["PHP_SELF"];
-  $parts = Explode('/', $currentFile);
-  $parts = $parts[count($parts) - 1];
-  $parts = Explode('.', $parts);
-  $pageName = $parts[0];
+        
         if($pageName=='index') echo 'display:none;' ?>">
         <span class="title">
             <?php
