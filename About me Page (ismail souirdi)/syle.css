@@ -312,3 +312,9 @@ input[type="checkbox"]:checked+.slider:before {
 
     }
 }
+
+.privacy_policy li{
+    list-style: none;
+
+    padding-top: 15px;
+}
