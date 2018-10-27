@@ -44,6 +44,7 @@
 .stroke {
     z-index: 0;
 }
+
 /*end profile page*/
 
 .coach {
@@ -81,6 +82,7 @@
 
 }
 
+/*start contract us*/
 section .section-title {
     text-align: center;
     color: #007b5e;
@@ -232,12 +234,10 @@ input[type="checkbox"]:checked+.slider:before {
 .agree_text {
     margin-top: 8px;
 }
-
 /*end of toggler switch*/
 
-@media (max-width:767px) {
-    
-}
+/*media screens*/
+@media (max-width:767px) {}
 
 @media (max-width:1024PX) {
     .portrait {
@@ -252,10 +252,11 @@ input[type="checkbox"]:checked+.slider:before {
         margin-left: 8px;
         margin-top: 2px;
     }
-          
-.li_button {
-    margin-left: 0px;
-}
+
+    .li_button {
+        margin-left: 0px;
+    }
+
     .text {
 
         font-size: 17px;
@@ -267,6 +268,7 @@ input[type="checkbox"]:checked+.slider:before {
         padding: 3px 15px 3px 15px;
 
     }
+
     .btn_contact_coach {
         width: 200px;
     }
@@ -278,6 +280,7 @@ input[type="checkbox"]:checked+.slider:before {
     .btn_contact_coach {
         width: 100px;
     }
+
     .portrait {
         width: 320px;
         height: 200px;
@@ -290,10 +293,11 @@ input[type="checkbox"]:checked+.slider:before {
         margin-left: 8px;
         margin-top: 5px;
     }
-    
-.li_button {
-    margin-right: 150px;
-}
+
+    .li_button {
+        margin-right: 150px;
+    }
+
     .text {
 
         font-size: 12px;
@@ -306,4 +310,3 @@ input[type="checkbox"]:checked+.slider:before {
 
     }
 }
-
