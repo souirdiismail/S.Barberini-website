@@ -234,32 +234,32 @@ center {
         font-size: 100px;
     }
 
-    .show ul{
+    .show ul {
         padding-bottom: 30px;
-   }
-   
-   .show ul li a {
-       padding-bottom: 15px;
-   }
-   
-   .show ul li .line {
-       vertical-align: middle;
-       margin-top: -2.5rem;
-   }
-   
-   .collapsing ul{
-       padding-bottom: 30px;
-   }
-   
-   .collapsing ul li a {
-      padding-bottom: 15px;
-   }
-   
-   .collapsing ul li .line {
-      vertical-align: middle;
-      margin-top: -2.5rem;
-   }
-   
+    }
+
+    .show ul li a {
+        padding-bottom: 15px;
+    }
+
+    .show ul li .line {
+        vertical-align: middle;
+        margin-top: -2.5rem;
+    }
+
+    .collapsing ul {
+        padding-bottom: 30px;
+    }
+
+    .collapsing ul li a {
+        padding-bottom: 15px;
+    }
+
+    .collapsing ul li .line {
+        vertical-align: middle;
+        margin-top: -2.5rem;
+    }
+
 
 }
 
@@ -999,12 +999,12 @@ hr {
 
     .whatsapp-text {
         /* font-size: 13px; */
-        display: none;    
+        display: none;
     }
-    
+
     .whatsapp-text2 {
         /* font-size: 13px; */
-        display: none;    
+        display: none;
     }
 
 
@@ -1318,12 +1318,11 @@ input[type="checkbox"]:checked+.slider:before {
 .agree_text {
     margin-top: 8px;
 }
+
 /*end of toggler switch*/
 
 /*media screens*/
-@media (max-width:767px) {
-
-}
+@media (max-width:767px) {}
 
 @media (max-width:1024PX) {
     .portraits {
@@ -1395,4 +1394,29 @@ input[type="checkbox"]:checked+.slider:before {
         padding: 3px 15px 3px 15px;
 
     }
+}
+
+.video_btn {
+    color: rgb(255, 255, 255);
+    border-radius: 3px;
+    background-image: -moz-linear-gradient(45deg, rgb(0, 192, 193) 0%, rgb(0, 197, 167) 100%);
+    background-image: -webkit-linear-gradient(45deg, rgb(0, 192, 193) 0%, rgb(0, 197, 167) 100%);
+    background-image: -ms-linear-gradient(45deg, rgb(0, 192, 193) 0%, rgb(0, 197, 167) 100%);
+    box-shadow: 0px 5px 15px 0px rgba(0, 0, 0, 0.2);
+
+    min-width: 200px;
+    min-height: 45px;
+    font-size: 20px;
+    padding: 0px 20px;
+}
+
+.video_btn a {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+
+.video_btn a:hover {
+    text-decoration: none;
+    color: white;
 }
