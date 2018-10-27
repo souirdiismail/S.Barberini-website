@@ -234,6 +234,33 @@ center {
         font-size: 100px;
     }
 
+    .show ul{
+        padding-bottom: 30px;
+   }
+   
+   .show ul li a {
+       padding-bottom: 15px;
+   }
+   
+   .show ul li .line {
+       vertical-align: middle;
+       margin-top: -2.5rem;
+   }
+   
+   .collapsing ul{
+       padding-bottom: 30px;
+   }
+   
+   .collapsing ul li a {
+      padding-bottom: 15px;
+   }
+   
+   .collapsing ul li .line {
+      vertical-align: middle;
+      margin-top: -2.5rem;
+   }
+   
+
 }
 
 @media (max-width:400px) {
@@ -815,9 +842,8 @@ center {
         background-size: cover 100% 100%;
         width: 200px;
         height: 598px;
-
-
     }
+
 
     .SlidePara {
         color: white;
