@@ -54,7 +54,7 @@
                         </svg>
                     </li>
                     <li class="nav-item mx-2">
-                        <a class="nav-link" href="chi sono.php">Chi sono</a>
+                        <a class="nav-link" href="#chi_sono">Chi sono</a>
                         <svg class="line" viewBox="0 0 40 1" preserveAspectRatio="none">
                             <path d="M0 1 L40 1" />
                             <path d="M0 1 L40 1" class="focusedline" />

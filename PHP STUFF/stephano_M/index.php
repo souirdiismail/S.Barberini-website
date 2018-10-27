@@ -267,7 +267,7 @@
         <div class="container">
             <div class="row py-5">
                 <div class="col-12">
-                    <h2 class=" text-center about_text">
+                    <h2 class=" text-center about_text" id="chi_sono">
                         About Me
                     </h2>
                 </div>
@@ -300,7 +300,7 @@
                 </div>
             </div>
             <div class="piu_su_di_me  text-center">
-                <button class="btn  button_piu_su_di_me  "><a href="">Più su di me </a></button>
+                <button class="btn  button_piu_su_di_me  "><a href="chi%20sono.php">Più su di me </a></button>
 
             </div>
         </div>
