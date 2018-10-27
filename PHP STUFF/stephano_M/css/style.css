@@ -1438,3 +1438,8 @@ input[type="checkbox"]:checked+.slider:before {
     text-decoration: none;
     color: white;
 }
+/*Cookies */
+.cookies_section{
+    margin-top: 55px;
+}
+/*End cookies*/
