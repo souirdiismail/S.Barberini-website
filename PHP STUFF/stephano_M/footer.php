@@ -42,8 +42,8 @@
             </div>
             <div class="row">
                 <div class="col-xs-12 col-sm-12 col-md-12 mt-2 mt-sm-2 text-center text-white">
-                    <p><u><a href="https://www.esyonic.com/"> Devolopped by Esyonic </a></u> </p>
-                    <p class="h6 right-reserved">&copy All right Reversed.<a class="text-green ml-2" href="https://www.esyonic.com/"
+                    <p><u><a href="https://www.eysionic.com/"> Devolopped by Esyonic </a></u> </p>
+                    <p class="h6 right-reserved">&copy All right Reversed.<a class="text-green ml-2" href="https://www.eysionic.com/"
                             target="_blank">Stefano Berberini</a></p>
                 </div>
             </div>

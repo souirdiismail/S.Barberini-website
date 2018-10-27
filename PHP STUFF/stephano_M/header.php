@@ -33,7 +33,7 @@
             <div class=" collapse navbar-collapse customnav" id="navbarNavDropdown">
                 <ul class="navbar-nav justify-content-end col-12">
                     <li class="nav-item mx-2 current">
-                        <a class="nav-link" href="index.php">Home<span class="sr-only">(current)</span></a>
+                        <a class="nav-link" href="index">Home<span class="sr-only">(current)</span></a>
                         <svg class="line" viewBox="0 0 40 1" preserveAspectRatio="none">
                             <path d="M0 1 L40 1" />
                             <path d="M0 1 L40 1" class="focusedline" />
@@ -47,7 +47,7 @@
                         </svg>
                     </li>
                     <li class="nav-item mx-2">
-                        <a class="nav-link" href="Video.php">Video</a>
+                        <a class="nav-link" href="Video">Video</a>
                         <svg class="line" viewBox="0 0 40 1" preserveAspectRatio="none">
                             <path d="M0 1 L40 1" />
                             <path d="M0 1 L40 1" class="focusedline" />
@@ -61,7 +61,7 @@
                         </svg>
                     </li>
                     <li class="nav-item mx-2">
-                        <a class="nav-link" href="DIVENTA PERSONAL COACH.php">Diventa personal coach</a>
+                        <a class="nav-link" href="DIVENTA PERSONAL COACH">Diventa personal coach</a>
                         <svg class="line" viewBox="0 0 40 1" preserveAspectRatio="none">
                             <path d="M0 1 L40 1" />
                             <path d="M0 1 L40 1" class="focusedline" />
