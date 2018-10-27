@@ -1,0 +1,54 @@
+.second_blog_row_card{     
+    margin-top: 13px;   
+    border-radius: 10px !important;
+    background-color: rgb(255, 255, 255) !important;
+    box-shadow: 0px 3px 50px 0px rgba(6, 29, 71, 0.08) !important;
+
+}
+.first_blog_row_card{
+    border-radius: 10px !important;
+    background-color: rgb(255, 255, 255) !important;
+    box-shadow: 0px 3px 50px 0px rgba(6, 29, 71, 0.08) !important;
+
+}
+.blog_cards_deck{
+    padding-top: 40px;
+}
+/*media  , just  copy the code to the main media */
+@media (max-width: 576px) {
+    .first_blog_row_card{
+        margin-top: 13px; 
+        
+    }
+    
+    
+}
+
+@media (max-width: 768px) {
+    .first_row_card{
+        margin-top: 13px; 
+    }
+    
+    }
+
+
+@media (max-width: 992px) {
+    .first_blog_row_card{
+        margin-top: 13px; 
+    }
+    
+    }
+
+    @media screen and (max-width: 800px)
+    {
+      
+        
+        
+       
+      }
+    
+@media (max-width: 1200px) {
+    
+    }
+    
+    
