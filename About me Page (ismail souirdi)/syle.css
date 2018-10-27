@@ -237,10 +237,12 @@ input[type="checkbox"]:checked+.slider:before {
 /*end of toggler switch*/
 
 /*media screens*/
-@media (max-width:767px) {}
+@media (max-width:767px) {
+
+}
 
 @media (max-width:1024PX) {
-    .portrait {
+    .portraits {
         width: 533px;
         height: 333px;
         margin-left: 14px;
@@ -281,7 +283,7 @@ input[type="checkbox"]:checked+.slider:before {
         width: 100px;
     }
 
-    .portrait {
+    .portraits {
         width: 320px;
         height: 200px;
         margin-left: 12px;
