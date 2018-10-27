@@ -84,7 +84,7 @@
         <div class="row justify-content-center">
             <!--1st Prod -->
             <div class="col-md-4 col-sm-6 col-lg-3 ">
-            <a href="">
+            <a class="nodecoration" href="">
                 <div class="card  prod_feature first_row_card " data-aos="fade-down" data-aos-easing="linear"
                     data-aos-duration="750" data-aos-once="true">
                     <img class="card-img-top  prod_img img-fluid" src="Assets/product card 1.png" alt="Card image cap"
@@ -102,7 +102,7 @@
 
             <!--2nd Prod -->
             <div class="col-md-4 col-sm-6 col-lg-3  ">
-            <a href="">
+            <a class="nodecoration" href="">
                 <div class="card  prod_feature  first_row_card " data-aos="fade-down" data-aos-easing="linear"
                     data-aos-duration="800" data-aos-once="true">
                     <img class="card-img-top  prod_img img-fluid" src="Assets/product card 2.png" alt="Card image cap"
@@ -119,7 +119,7 @@
 
             <!--3rd Prod -->
             <div class="col-md-4 col-sm-6 col-lg-3  ">
-            <a href="">
+            <a class="nodecoration" href="">
                 <div class="card  prod_feature first_row_card  " data-aos="fade-down" data-aos-easing="linear"
                     data-aos-duration="850" data-aos-once="true">
                     <img class="card-img-top  prod_img img-fluid" src="Assets/product card 1.png" alt="Card image cap"
@@ -136,7 +136,7 @@
 
             <!--4th Prod -->
             <div class="col-md-4 col-sm-6 col-lg-3  ">
-            <a href="">
+            <a class="nodecoration" href="">
                 <div class="card  prod_feature first_row_card  " data-aos="fade-down" data-aos-easing="linear"
                     data-aos-duration="900" data-aos-once="true">
                     <img class="card-img-top prod_img img-fluid" src="Assets/product card 1.png" alt="Card image cap"
@@ -158,7 +158,7 @@
             <!--5th Prod -->
             <div class="col-lg-offset-3"></div>
             <div class=" col-md-4 col-sm-6 col-lg-3 ">
-            <a href="">
+            <a class="nodecoration" href="">
                 <div class="card   prod_feature second_row_card " data-aos="fade-down" data-aos-easing="linear"
                     data-aos-duration="950" data-aos-once="true">
                     <img class="card-img-top  prod_img img-fluid" src="Assets/product card 1.png" alt="Card image cap"
@@ -175,7 +175,7 @@
 
             <!--6th Prod -->
             <div class="col-md-4 col-sm-6 col-lg-3 ">
-            <a href="">
+            <a class="nodecoration" href="">
                 <div class="card  prod_feature second_row_card  " data-aos="fade-down" data-aos-easing="linear"
                     data-aos-duration="1000" data-aos-once="true">
                     <img class="card-img-top prod_img img-fluid" src="Assets/product card 1.png" alt="Card image cap"

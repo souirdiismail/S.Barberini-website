@@ -184,6 +184,14 @@ center {
     height: 60px !important;
     text-transform: uppercase !important;
 }
+.nodecoration {
+    text-decoration: none;
+}
+
+
+.nodecoration:hover {
+    text-decoration: none;
+}
 
 .form_sub {
     margin-right: -5px;
@@ -823,7 +831,9 @@ center {
     position: absolute;
     font-size: 18pt;
     margin-top: 30%;
-    margin-left: 38%;
+    left: 50%;
+    transform: translateX(-50%);
+    width: fit-content;
 }
 
 /*the divs in the slide  */
