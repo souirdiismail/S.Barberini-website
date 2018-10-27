@@ -84,77 +84,70 @@
         <div class="row justify-content-center">
             <!--1st Prod -->
             <div class="col-md-4 col-sm-6 col-lg-3 ">
+            <a class="nodecoration" href="">
                 <div class="card  prod_feature first_row_card " data-aos="fade-down" data-aos-easing="linear"
-                    data-aos-duration="800">
+                    data-aos-duration="750" data-aos-once="true">
                     <img class="card-img-top  prod_img img-fluid" src="Assets/product card 1.png" alt="Card image cap"
                         style="width: 8em;">
                     <div class="card-body">
-                        <h5 class="card-title prod_name">Herbalife24 CR7 DRIVE</h5>
-                        <p class="card-text prod_text">Some quick example text to build on the card title and make
-                            up
-                            the bulk of the card's content.
-                            Some quick example text to build on the card title and make up the bulk of the card's
-                            content. </p>
+                        <h5 class="card-title prod_name">COLAZIONE EQUILIBRATA </h5>
+                        <p class="card-text prod_text">«La buona Colazione nutriente per la tua forma fisica, tanto benessere, energia e un forte aiuto contro la ritenzione » </p>
 
                     </div>
                 </div>
+                </a>
             </div>
+
             <!--End 1st Prod -->
 
             <!--2nd Prod -->
             <div class="col-md-4 col-sm-6 col-lg-3  ">
+            <a class="nodecoration" href="">
                 <div class="card  prod_feature  first_row_card " data-aos="fade-down" data-aos-easing="linear"
-                    data-aos-duration="850">
+                    data-aos-duration="800" data-aos-once="true">
                     <img class="card-img-top  prod_img img-fluid" src="Assets/product card 2.png" alt="Card image cap"
                         style="width: 12.6em;">
                     <div class="card-body">
-                        <h5 class="card-title prod_name">Personalised Protein Powder</h5>
-                        <p class="card-text prod_text">Some quick example text to build on the card title and make
-                            up
-                            the bulk of the card's content.
-                            Some quick example text to build on the card title and make up the bulk of the card's
-                            content. </p>
+                        <h5 class="card-title prod_name">COLAZIONE EQUILIBRATA CON PROTEINE </h5>
+                        <p class="card-text prod_text">«Colazione per la tua forma fisica per te che non ami il latte e vuoi aggiungere proteine buone da leccarsi i baffi» </p>
 
                     </div>
                 </div>
+                </a>
             </div>
             <!--End 2nd Prod -->
 
             <!--3rd Prod -->
             <div class="col-md-4 col-sm-6 col-lg-3  ">
+            <a class="nodecoration" href="">
                 <div class="card  prod_feature first_row_card  " data-aos="fade-down" data-aos-easing="linear"
-                    data-aos-duration="900">
+                    data-aos-duration="850" data-aos-once="true">
                     <img class="card-img-top  prod_img img-fluid" src="Assets/product card 1.png" alt="Card image cap"
                         style="width: 8em;">
                     <div class="card-body">
-                        <h5 class="card-title prod_name">Herbalife24 CR7 DRIVE</h5>
-                        <p class="card-text prod_text">Some quick example text to build on the card title and make
-                            up
-                            the bulk of the card's content.
-                            Some quick example text to build on the card title and make up the bulk of the card's
-                            content. </p>
+                        <h5 class="card-title prod_name">PROGRAMMA PERDITA PESO</h5>
+                        <p class="card-text prod_text">«Il tuo kit completo per dimagrire con gusto, depurare, drenare e nutrire la tua massa muscolare»</p>
 
                     </div>
                 </div>
+                </a>
             </div>
             <!--End 3rd Prod -->
 
             <!--4th Prod -->
             <div class="col-md-4 col-sm-6 col-lg-3  ">
+            <a class="nodecoration" href="">
                 <div class="card  prod_feature first_row_card  " data-aos="fade-down" data-aos-easing="linear"
-                    data-aos-duration="950">
+                    data-aos-duration="900" data-aos-once="true">
                     <img class="card-img-top prod_img img-fluid" src="Assets/product card 1.png" alt="Card image cap"
                         style="width: 8em;">
                     <div class="card-body">
-                        <h5 class="card-title prod_name">Herbalife24 CR7 DRIVE</h5>
-                        <p class="card-text prod_text">Some quick example text to build on the card title and make
-                            up
-                            the bulk of the card's content.
-                            Some quick example text to build on the card title and make up the bulk of the card's
-                            content. </p>
+                        <h5 class="card-title prod_name">WORKOUT SPORT DI FORZA</h5>
+                        <p class="card-text prod_text">«Il tuo alleato per la palestra. Aumento massa, energia e recupero muscolare»</p>
 
                     </div>
                 </div>
+                </a>
             </div>
             <!--End 4th Prod -->
 
@@ -165,39 +158,35 @@
             <!--5th Prod -->
             <div class="col-lg-offset-3"></div>
             <div class=" col-md-4 col-sm-6 col-lg-3 ">
+            <a class="nodecoration" href="">
                 <div class="card   prod_feature second_row_card " data-aos="fade-down" data-aos-easing="linear"
-                    data-aos-duration="1000">
+                    data-aos-duration="950" data-aos-once="true">
                     <img class="card-img-top  prod_img img-fluid" src="Assets/product card 1.png" alt="Card image cap"
                         style="width: 8em;">
                     <div class="card-body">
-                        <h5 class="card-title prod_name">Herbalife24 CR7 DRIVE</h5>
-                        <p class="card-text prod_text">Some quick example text to build on the card title and make
-                            up
-                            the bulk of the card's content.
-                            Some quick example text to build on the card title and make up the bulk of the card's
-                            content. </p>
+                        <h5 class="card-title prod_name">WORKOUT SPORT DI RESISTENZA</h5>
+                        <p class="card-text prod_text">«Il tuo Kit contro la fatica e un complice per il recupero muscolare» </p>
 
                     </div>
                 </div>
+                </a>
             </div>
             <!--End 5th Prod -->
 
             <!--6th Prod -->
             <div class="col-md-4 col-sm-6 col-lg-3 ">
+            <a class="nodecoration" href="">
                 <div class="card  prod_feature second_row_card  " data-aos="fade-down" data-aos-easing="linear"
-                    data-aos-duration="1050">
+                    data-aos-duration="1000" data-aos-once="true">
                     <img class="card-img-top prod_img img-fluid" src="Assets/product card 1.png" alt="Card image cap"
                         style="width: 8em;">
                     <div class="card-body">
-                        <h5 class="card-title prod_name">Herbalife24 CR7 DRIVE</h5>
-                        <p class="card-text prod_text">Some quick example text to build on the card title and make
-                            up
-                            the bulk of the card's content.
-                            Some quick example text to build on the card title and make up the bulk of the card's
-                            content. </p>
+                        <h5 class="card-title prod_name">VITAMINE E MINERALI PER DONNA</h5>
+                        <p class="card-text prod_text">«Il pieno di vitamine e minerali per tutti i giorni contro la stanchezza e l’affaticamento» </p>
 
                     </div>
                 </div>
+                </a>
             </div>
             <div class="col-lg-offset-3"></div>
             <!--End 6th Prod -->

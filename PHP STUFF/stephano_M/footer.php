@@ -1,5 +1,6 @@
 <!-- Footer -->
     <section id="footer">
+    	<hr class="my-4" >
         <div class="container">
             <div class="row text-center text-xs-center text-sm-left text-md-left">
                 <div class="col-xs-12 col-sm-4 col-md-4">
@@ -29,6 +30,7 @@
                     </ul>
                 </div>
             </div>
+            <hr class="my-4" >
             <div class="row">
                 <div class="col-xs-12 col-sm-12 col-md-12 mt-2 mt-sm-5">
                     <ul class="list-unstyled list-inline social text-center">
@@ -40,6 +42,7 @@
                     </ul>
                 </div>
             </div>
+            <hr class="my-4" >
             <div class="row">
                 <div class="col-xs-12 col-sm-12 col-md-12 mt-2 mt-sm-2 text-center text-white">
                     <p><u><a href="https://www.eysionic.com/"> Devolopped by Esyonic </a></u> </p>
