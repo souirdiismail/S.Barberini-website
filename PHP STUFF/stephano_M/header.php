@@ -6,14 +6,14 @@
   $parts = Explode('.', $parts);
   $pageName = $parts[0];
     ?>
+
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <!-- Lato font -->
     <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
-        crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <!-- AOS scrolling animation -->
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="icon" href="../../../../favicon.ico">
@@ -27,12 +27,10 @@
     <div>
         <nav class="navbar navbar-expand-lg navbar-dark container col-12">
             <a class="navbar-brand" href="#"><img src="assets/c24 logo dark.png" class="logo" alt="..."></a>
-            <button class="navbar-toggler navbuton" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
-                aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <button class="navbar-toggler navbuton" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon">
                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 30">
-                        <path stroke="rgba(27,86,138,1)" stroke-width="2" stroke-linecap="round" stroke-miterlimit="10"
-                            d="M4 7h22M4 15h22M4 23h22" /></svg>
+                        <path stroke="rgba(27,86,138,1)" stroke-width="2" stroke-linecap="round" stroke-miterlimit="10" d="M4 7h22M4 15h22M4 23h22" /></svg>
                 </span>
             </button>
             <div class=" collapse navbar-collapse customnav" id="navbarNavDropdown">
@@ -558,8 +556,7 @@
                                 <p class="copy">I prodotti Herbalife sono venduti esclusivamente attraverso i nostri
                                     Membri
                                     Indipendenti. Questo sito è gestito da un Membro Indipendente Herbalife e non da
-                                    Herbalife Italia SpA. Il sito web ufficiale Herbalife è <a href="http://www.herbalife.it"
-                                        target="_blank">www.herbalife.it</a></p>
+                                    Herbalife Italia SpA. Il sito web ufficiale Herbalife è <a href="http://www.herbalife.it" target="_blank">www.herbalife.it</a></p>
                             </div>
                             <div class="one-third"><img alt="Herbalife Logo" class="f-right" src="/herbalife-popup/images/herbalife-logo.jpg"></div>
                             <div class="clear">&nbsp;</div>

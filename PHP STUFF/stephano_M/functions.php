@@ -19,8 +19,18 @@ $GLOBALS['conn'] = new mysqli($servername, $username, $password,$dbname);
             echo '<p class="card-text">';
             echo  $row[3];
             echo '</p></div>';
-            echo '<button class="btn video_btn text-center"><a href="">More</a></button>';
+            echo '<button class="btn video_btn text-center"><a href="watch?id='.$row[0].'">More</a></button>';
             echo '</div></div>';
         }
+    }
+    function watch_videos($id)
+    {
+        $conn = $GLOBALS["conn"];
+        $query = "select url from videos where id=$id";
+        $results = mysqli_query($conn,$query);
+        while ($row1 = mysqli_fetch_row($results)) {
+            echo  $row1[0];
+        }
+        
     }
 ?>
