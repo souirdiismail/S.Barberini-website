@@ -796,7 +796,7 @@ center {
     width: 30%;
     margin-top: -15%;
     margin-left: 35%;
-    border: solid #165c74 5px;
+    border: solid #fff 8px;
     border-radius: 50%;
 }
 
@@ -896,7 +896,7 @@ center {
 
 #footer {
     padding: 60px 0;
-    margin-top: 50px;
+    /*margin-top: 50px;*/
 
 }
 
