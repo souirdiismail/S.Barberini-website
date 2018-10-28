@@ -2,7 +2,7 @@
 $servername = "localhost";
 $username = "root";
 $password = "";
-$dbname="stephano";
+$dbname="StefanoBarberiniDb";
 $GLOBALS['conn'] = new mysqli($servername, $username, $password,$dbname);
 
     function get_videos(){
