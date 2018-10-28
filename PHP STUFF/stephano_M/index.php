@@ -381,20 +381,20 @@
                     </div>
                 </div>
                 <div class="">
-                    <form>
+                    <form action="sendEmail.php" method="post" name="form">
                         <div class="form-row form_contact">
                             <div class="form-group col-md-6">
-                                <input type="text" class="form-control" id="inputname4" placeholder="Full Name">
+                                <input type="text" name="name" class="form-control" id="inputname4" placeholder="Full Name">
                             </div>
                             <div class="form-group col-md-6">
-                                <input type="email" class="form-control" id="inputEmail4" placeholder="Email">
+                                <input type="email" name="mail" class="form-control" id="inputEmail4" placeholder="Email">
                             </div>
 
                             <div class="form-group col-md-12">
-                                <input type="text" class="form-control" id="inputsubject" placeholder="Subject">
+                                <input type="text" name="subject" class="form-control" id="inputsubject" placeholder="Subject">
                             </div>
                             <div class="form-group col-md-12">
-                                <textarea name="name" rows="8" cols="80" class="form-control" id="inputmessage"
+                                <textarea name="message" rows="8" cols="80" class="form-control" id="inputmessage"
                                     placeholder="Message"></textarea>
                             </div>
                             <br>
