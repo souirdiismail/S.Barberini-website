@@ -102,23 +102,15 @@ a:hover+.line .focusedline {
     line-height: 1.2;
     font-size: 2vw;
     background: transparent;
-    border: solid #f4f4f4 0.1vw;
     border-radius: 0;
     position: absolute;
     text-align: center;
-    text-justify: center;
-    width: 22%;
-    height: 10%;
-    bottom: 15%;
-    right: 20%;
-    color: #f4f4f4;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    color: transparent;
     padding: 0px !important;
-}
-
-.arrow {
-    margin-top: -3%;
-    margin-right: -3%;
-    width: 15%;
 }
 
 .whitebordercarousel {
@@ -329,11 +321,16 @@ center {
     max-width: 10px;
     max-height: 10px;
     border-radius: 100%;
+    background: #f4f7f4;
 }
 
 .carousel-indicators {
     bottom: 1vw !important;
     margin-bottom: 0px;
+}
+
+.carousel-indicators .active {
+    background: #00b0ab !important;
 }
 
 .section2 {
