@@ -397,7 +397,7 @@
             <br><br><br>
             <div class="whatsapp-api text-center">
                 <button class="btn whatsapp-border">
-                    <a href="https://web.whatsapp.com/send?phone=212707041997" target="_blank">
+                    <a href="https://web.whatsapp.com/send?phone=393401571447&text=" target="_blank">
 
                         <img class="whatsapp-logo" width="40px" height="40px" viewBox="0 0 92 92" src="Assets/whatsapp-logo.png" />
                         <span class="whatsapp-text">Vuoi saperne di più? </span>
