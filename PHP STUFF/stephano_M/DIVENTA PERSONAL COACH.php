@@ -55,7 +55,7 @@
                 <br><br>
                 <h1>Contact Us</h1>
                 <div class="">
-                    <form action="add_coach" method="post" name="CoachForm">
+                    <form action="" method="post" name="CoachForm">
                         <div class="form-row form_contact">
                             <div class="form-group col-md-6 contact_coach">
                                 <input type="text" class="form-control" id="inputname4" name="name" data-num="1" placeholder="Full Name">
