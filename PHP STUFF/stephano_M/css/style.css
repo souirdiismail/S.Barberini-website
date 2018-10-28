@@ -349,6 +349,7 @@ center {
 }
 
 .herbaimg {
+    margin-top: 30px;
     width: 100%;
     max-width: 508px;
 }
@@ -555,13 +556,13 @@ center {
     background: url(../Assets/AboutMe.png) no-repeat 50% 50% fixed;
     background-color: #ffffff;
     width: 100%;
-    height: 820px;
+    min-height: 820px;
+    height: auto;
+    padding-bottom: 40px;
     background-size: cover;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
-
-
 }
 
 .about_text {
@@ -643,13 +644,14 @@ center {
     background-repeat: no-repeat;
     background-attachment: fixed;
     margin-top: 50px;
-    height: 1200px;
+    min-height: 1200px;
+    height: auto;
     top: 0;
+    padding-bottom: 30px;
     left: 0;
     right: 0;
     bottom: 0;
     background-size: cover;
-
 }
 
 .content_contact h1 {
