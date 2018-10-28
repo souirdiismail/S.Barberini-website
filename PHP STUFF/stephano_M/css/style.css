@@ -15,6 +15,9 @@ body {
     padding: 0;
     width: 100%;
     font-family: "Lato";
+}
+
+body {
     overflow-x: hidden !important;
 }
 
@@ -28,7 +31,6 @@ body {
     background-position-y: 0;
     background-repeat: no-repeat;
     padding-bottom: 300px;
-    background-attachment: fixed;
 }
 
 .logo {
