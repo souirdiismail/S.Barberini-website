@@ -20,7 +20,7 @@
                 <div class="form_sub">
                     <div class="form-group1 col-12">
                         <input type="email" name="mailSub" class="email" id="Email" placeholder="Email" required="">
-                        <button type="submit" name="submit" class="btn products">Subscribe</button>
+                        <button type="submit" name="submit" class="btn products">Sottoscrivi</button>
                     </div>
                 </div>
             </form>
@@ -401,7 +401,7 @@
             <br><br><br>
             <div class="whatsapp-api text-center">
                 <button class="btn whatsapp-border">
-                    <a href="https://web.whatsapp.com/send?phone=212707041997" target="_blank">
+                    <a href="https://web.whatsapp.com/send?phone=393401571447" target="_blank">
 
                         <img class="whatsapp-logo" width="40px" height="40px" viewBox="0 0 92 92" src="Assets/whatsapp-logo.png" />
                         <span class="whatsapp-text">Vuoi saperne di più? </span>
@@ -417,7 +417,7 @@
                 <br>
                 <br>
                 <br>
-                <span class="num_tel">+39 707 041 997</span>
+                <span class="num_tel">+39 340 157 1447</span>
                 <br><br><br><br><br>
                 <div class="box message">
                     <span data-num="1">Or send message</span>
@@ -440,7 +440,7 @@
                             <textarea name="message" rows="8" cols="80" class="form-control" id="inputmessage" placeholder="Message"></textarea>
                         </div>
                         <br>
-                        <button type="submit" class="btn btn_contact col-md-12">Submit</button>
+                        <button type="submit" class="btn btn_contact col-md-12">Sottoscrivi</button>
                     </div>
                 </form>
             </div>
