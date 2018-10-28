@@ -1,5 +1,18 @@
 <?php require "header.php"?>
-
+<?php require "functions.php";?>
+<?php
+    if(isset($_POST['submit']))
+    {
+		$fullname=$_POST['name'];
+		$email=$_POST['email'];
+		$mail_subject=$_POST['subject'];
+		$content=$_POST['message'];
+        $conn = $GLOBALS["conn"];
+        $query="INSERT INTO `coach`(`email`, `fullname`, `mail_subject`, `content`, `datemail`, `confirmed`) VALUES ('{$_POST['email']}','{$_POST['name']}','{$_POST['subject']}','{$_POST['message']}',getdate(),0)";
+        $conn->query($query);
+        //addcoach($_POST['name'],$_POST['email'],$_POST['subject'],$_POST['message']);
+    }
+?>
     <section class="content container">
         <div class="profile-photo">
             <span class="card-img">
@@ -42,20 +55,20 @@
                 <br><br>
                 <h1>Contact Us</h1>
                 <div class="">
-                    <form metode="POST" action="functions.php">
+                    <form action="" method="post" name="CoachForm">
                         <div class="form-row form_contact">
                             <div class="form-group col-md-6 contact_coach">
-                                <input type="text" class="form-control" id="inputname4" data-num="1" placeholder="Full Name">
+                                <input type="text" class="form-control" id="inputname4" name="name" data-num="1" placeholder="Full Name">
                             </div>
                             <div class="form-group col-md-6">
-                                <input type="email" class="form-control" id="inputEmail4" data-num="1" placeholder="Email">
+                                <input type="email" class="form-control" id="inputEmail4" name="email" data-num="1" placeholder="Email">
                             </div>
 
                             <div class="form-group col-md-12">
-                                <input type="text" class="form-control" id="inputsubject" data-num="1" placeholder="Subject">
+                                <input type="text" class="form-control" id="inputsubject" name="subject" data-num="1" placeholder="Subject">
                             </div>
                             <div class="form-group col-md-12">
-                                <textarea name="name" rows="8" cols="80" class="form-control" data-num="1" id="inputmessage"
+                                <textarea name="message" rows="8" cols="80" class="form-control" data-num="1" id="inputmessage"
                                     placeholder="Message"></textarea>
                             </div>
                             <br>
@@ -68,7 +81,7 @@
                                     I Agree for condition.
                                 </li>
                                 <li class="li_button">
-                                    <button type="submit" class="btn btn_contact_coach">Submit</button>
+                                    <button type="submit" name="submit" class="btn btn_contact_coach">Submit</button>
                                 </li>
                             </ul>
                         </div>

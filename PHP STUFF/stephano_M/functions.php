@@ -34,9 +34,9 @@ $GLOBALS['conn'] = new mysqli($servername, $username, $password,$dbname);
         
     }
 
-    function addcoach(){
+    function addcoach($email,$fullname,$mail_subject,$content){
         $conn = $GLOBALS["conn"];
-
-        
+        $query="INSERT INTO `coach`(`email`, `fullname`, `mail_subject`, `content`, `datemail`, `confirmed`) VALUES ('{$email}','{$fullname}','{$mail_subject}','{$content}',getdate(),0)";
+        $conn->query($query);
     }
 ?>
