@@ -42,7 +42,7 @@
                 <br><br>
                 <h1>Contact Us</h1>
                 <div class="">
-                    <form>
+                    <form metode="POST" action="functions.php">
                         <div class="form-row form_contact">
                             <div class="form-group col-md-6 contact_coach">
                                 <input type="text" class="form-control" id="inputname4" data-num="1" placeholder="Full Name">

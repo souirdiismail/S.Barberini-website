@@ -15,11 +15,11 @@ body {
     padding: 0;
     width: 100%;
     font-family: "Lato";
-}
-
-body {
     overflow-x: hidden !important;
 }
+/* 
+body {
+} */
 
 /*CSS SOulayman*/
 
@@ -762,8 +762,6 @@ center {
 /*the three images with the gradient color */
 .slide1 {
     background: url("../Assets/slider_front_n1.png");
-
-
 }
 
 .slide2 {
@@ -782,6 +780,7 @@ center {
     margin-left: 35%;
     border: solid #fff 8px;
     border-radius: 50%;
+    background: #fff;
 }
 
 /*The name of the Client */
