@@ -33,4 +33,10 @@ $GLOBALS['conn'] = new mysqli($servername, $username, $password,$dbname);
         }
         
     }
+
+    function addcoach(){
+        $conn = $GLOBALS["conn"];
+
+        
+    }
 ?>
