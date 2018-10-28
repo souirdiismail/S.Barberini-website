@@ -369,7 +369,7 @@
                     </button>
                 </div>
                 <br><br><br>
-                <div class="simple_contact">
+                <div class="simple_contact" id="ContactUs">
                     <h3>contact@stefanoberberini-club24hl.com</h3>
                     <br>
                     <br>

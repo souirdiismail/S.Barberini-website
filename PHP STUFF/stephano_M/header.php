@@ -26,7 +26,7 @@
     <!-- NAVBAR -->
     <div>
         <nav class="navbar navbar-expand-lg navbar-dark container col-12">
-            <a class="navbar-brand" href="#"><img src="assets/c24 logo dark.png" class="logo" alt="..."></a>
+            <a class="navbar-brand" href="index"><img src="assets/c24 logo dark.png" class="logo" alt="..."></a>
             <button class="navbar-toggler navbuton" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon">
                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 30">
@@ -71,7 +71,7 @@
                         </svg>
                     </li>
                     <li class="nav-item mx-2">
-                        <a class="nav-link" href="#">CONTATTO SULLA</a>
+                        <a class="nav-link" href="<?php if($pageName=='index' ){echo '#ContactUs' ;}else{ echo 'index#ContactUs';}?>">CONTATTO SULLA</a>
                         <svg class="line" viewBox="0 0 40 1" preserveAspectRatio="none">
                             <path d="M0 1 L40 1" />
                             <path d="M0 1 L40 1" class="focusedline" />

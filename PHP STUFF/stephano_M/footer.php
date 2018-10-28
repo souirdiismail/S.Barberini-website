@@ -16,7 +16,7 @@
             <div class="col-xs-12 col-sm-4 col-md-4">
                 <h5>Contact</h5>
                 <ul class="list-unstyled quick-links">
-                    <li><a href="#"><i class="fa fa-angle-double-right"></i>Contact Us</a></li>
+                    <li><a href="<?php if($pageName=='index' ){echo '#ContactUs' ;}else{ echo 'index#ContactUs';}?>"><i class="fa fa-angle-double-right"></i>Contact Us</a></li>
 
                 </ul>
             </div>
