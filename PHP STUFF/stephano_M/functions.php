@@ -7,13 +7,13 @@ $GLOBALS['conn'] = new mysqli($servername, $username, $password,$dbname);
 
     function get_videos(){
         $conn = $GLOBALS["conn"];
-        $sql = "select * from videos";
+        $sql = "select * from tablevideos";
         $results = $conn -> query($sql);
         
         while ($row = mysqli_fetch_row($results)) {
             echo '<div class="col-md-4 col-sm-6 ">';
             echo '<div class="card first_blog_row_card animated  fadeInDown ">';
-            echo '<img class="card-img-top img-fluid" src="'.$row[2].'" alt="Card image cap">';
+            echo '<img class="card-img-top img-fluid" src="uploads/'.$row[2].'" alt="Card image cap">';
             echo '<div class="card-body">';
             echo '<h5 class="card-title text-center">'.$row[1].'</h5>';
             echo '<p class="card-text">';
@@ -26,7 +26,7 @@ $GLOBALS['conn'] = new mysqli($servername, $username, $password,$dbname);
     function watch_videos($id)
     {
         $conn = $GLOBALS["conn"];
-        $query = "select url from videos where id=$id";
+        $query = "select url from tablevideos where id=$id";
         $results = mysqli_query($conn,$query);
         while ($row1 = mysqli_fetch_row($results)) {
             echo  $row1[0];
