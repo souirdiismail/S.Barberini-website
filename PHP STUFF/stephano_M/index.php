@@ -16,11 +16,11 @@
         </div>
         <center class="trans">
             <!-- <span class="products btn">Il nostro prodotto</span> -->
-            <form action="add_sub" name="SubFrom" method="post">
+            <form>
                 <div class="form_sub">
                     <div class="form-group1 col-12">
-                        <input type="email" name="mailSub" class="email" id="Email" placeholder="Email" required="">
-                        <button type="submit" name="submit" class="btn products">Subscribe</button>
+                        <input type="email" class="email" id="Email" placeholder="Email" required="">
+                        <button type="submit" class="btn products">Subscribe</button>
                     </div>
                 </div>
             </form>

@@ -103,7 +103,7 @@
                         </svg>
                     </li>
                     <li class="nav-item mx-2 bordered">
-                        <a class="nav-link" href="#">Il nostro negozio</a>
+                        <a class="nav-link" href="https://club24hl.goherbalife.com/Catalog/Home/Index/it-IT/" target="_blank">Il nostro negozio</a>
                     </li>
                 </ul>
             </div>
