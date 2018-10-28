@@ -11,19 +11,20 @@
                     DI ORA
                     PER INIZIARE
                     VIVERE UNO <span class="bold">STILE DI VITA ATTIVO SANO</span> !</p>
-                <div>
-                    <!-- <span class="products btn">Il nostro prodotto</span> -->
-                    <form>
-                        <div class="form_sub">
-                            <div class="form-group1 col-12">
-                                <input type="email" class="email" id="Email" required="" placeholder="Email">
-                                <button type="submit" class="btn products">Subscribe</button>
-                            </div>
-                        </div>
-                    </form>
-                </div>
+
             </div>
         </div>
+        <center class="trans">
+            <!-- <span class="products btn">Il nostro prodotto</span> -->
+            <form>
+                <div class="form_sub">
+                    <div class="form-group1 col-12">
+                        <input type="email" class="email" id="Email" placeholder="Email" required="">
+                        <button type="submit" class="btn products">Subscribe</button>
+                    </div>
+                </div>
+            </form>
+        </center>
     </section>
     <!-- END SECTION CLUB24HL -->
 
@@ -79,11 +80,14 @@
         <!--1st Prod -->
         <div class="col-md-4 col-sm-6 col-lg-3 ">
             <a class="nodecoration" target="_blank" href="https://club24hl.goherbalife.com/Catalog/Product/Combo/it-IT/9">
-                <div class="card  prod_feature first_row_card " data-aos="fade-down" data-aos-easing="linear" data-aos-duration="750" data-aos-once="true">
-                    <img class="card-img-top  prod_img img-fluid" src="Assets/COLAZIONE_EQUILIBRATA.png" alt="Card image cap" style="width: 8em;">
+                <div class="card  prod_feature first_row_card " data-aos="fade-down" data-aos-easing="linear"
+                    data-aos-duration="750" data-aos-once="true">
+                    <img class="card-img-top  prod_img img-fluid" src="Assets/COLAZIONE_EQUILIBRATA.png" alt="Card image cap"
+                        style="width: 8em;">
                     <div class="card-body">
                         <h5 class="card-title prod_name">COLAZIONE EQUILIBRATA </h5>
-                        <p class="card-text prod_text">«La buona Colazione nutriente per la tua forma fisica, tanto benessere, energia e un forte aiuto contro la ritenzione » </p>
+                        <p class="card-text prod_text">«La buona Colazione nutriente per la tua forma fisica, tanto
+                            benessere, energia e un forte aiuto contro la ritenzione » </p>
 
                     </div>
                 </div>
@@ -95,11 +99,14 @@
         <!--2nd Prod -->
         <div class="col-md-4 col-sm-6 col-lg-3  ">
             <a class="nodecoration" target="_blank" href="https://club24hl.goherbalife.com/Catalog/Product/Combo/it-IT/10">
-                <div class="card  prod_feature  first_row_card " data-aos="fade-down" data-aos-easing="linear" data-aos-duration="800" data-aos-once="true">
-                    <img class="card-img-top  prod_img img-fluid" src="Assets/COLAZIONE_EQUILIBRATA_CON_PROTEINE.png" alt="Card image cap" style="width: 12.6em;">
+                <div class="card  prod_feature  first_row_card " data-aos="fade-down" data-aos-easing="linear"
+                    data-aos-duration="800" data-aos-once="true">
+                    <img class="card-img-top  prod_img img-fluid" src="Assets/COLAZIONE_EQUILIBRATA_CON_PROTEINE.png"
+                        alt="Card image cap" style="width: 12.6em;">
                     <div class="card-body">
                         <h5 class="card-title prod_name">COLAZIONE EQUILIBRATA CON PROTEINE </h5>
-                        <p class="card-text prod_text">«Colazione per la tua forma fisica per te che non ami il latte e vuoi aggiungere proteine buone da leccarsi i baffi» </p>
+                        <p class="card-text prod_text">«Colazione per la tua forma fisica per te che non ami il latte e
+                            vuoi aggiungere proteine buone da leccarsi i baffi» </p>
 
                     </div>
                 </div>
@@ -110,11 +117,14 @@
         <!--3rd Prod -->
         <div class="col-md-4 col-sm-6 col-lg-3  ">
             <a class="nodecoration" target="_blank" href="https://club24hl.goherbalife.com/Catalog/Product/Combo/it-IT/10">
-                <div class="card  prod_feature first_row_card  " data-aos="fade-down" data-aos-easing="linear" data-aos-duration="850" data-aos-once="true">
-                    <img class="card-img-top  prod_img img-fluid" src="Assets/PROGRAMMA_PERDITA_PESO.png" alt="Card image cap" style="width: 8em;">
+                <div class="card  prod_feature first_row_card  " data-aos="fade-down" data-aos-easing="linear"
+                    data-aos-duration="850" data-aos-once="true">
+                    <img class="card-img-top  prod_img img-fluid" src="Assets/PROGRAMMA_PERDITA_PESO.png" alt="Card image cap"
+                        style="width: 8em;">
                     <div class="card-body">
                         <h5 class="card-title prod_name">PROGRAMMA PERDITA PESO</h5>
-                        <p class="card-text prod_text">«Il tuo kit completo per dimagrire con gusto, depurare, drenare e nutrire la tua massa muscolare»</p>
+                        <p class="card-text prod_text">«Il tuo kit completo per dimagrire con gusto, depurare, drenare
+                            e nutrire la tua massa muscolare»</p>
 
                     </div>
                 </div>
@@ -125,11 +135,14 @@
         <!--4th Prod -->
         <div class="col-md-4 col-sm-6 col-lg-3  ">
             <a class="nodecoration" target="_blank" href="https://club24hl.goherbalife.com/Catalog/Product/Combo/it-IT/8">
-                <div class="card  prod_feature first_row_card  " data-aos="fade-down" data-aos-easing="linear" data-aos-duration="900" data-aos-once="true">
-                    <img class="card-img-top prod_img img-fluid" src="Assets/WORKOUT_SPORT_DI_FORZA.png" alt="Card image cap" style="width: 8em;">
+                <div class="card  prod_feature first_row_card  " data-aos="fade-down" data-aos-easing="linear"
+                    data-aos-duration="900" data-aos-once="true">
+                    <img class="card-img-top prod_img img-fluid" src="Assets/WORKOUT_SPORT_DI_FORZA.png" alt="Card image cap"
+                        style="width: 8em;">
                     <div class="card-body">
                         <h5 class="card-title prod_name">WORKOUT SPORT DI FORZA</h5>
-                        <p class="card-text prod_text">«Il tuo alleato per la palestra. Aumento massa, energia e recupero muscolare»</p>
+                        <p class="card-text prod_text">«Il tuo alleato per la palestra. Aumento massa, energia e
+                            recupero muscolare»</p>
 
                     </div>
                 </div>
@@ -145,11 +158,14 @@
         <div class="col-lg-offset-3"></div>
         <div class=" col-md-4 col-sm-6 col-lg-3 ">
             <a class="nodecoration" target="_blank" href="https://club24hl.goherbalife.com/Catalog/Product/Combo/it-IT/7">
-                <div class="card   prod_feature second_row_card " data-aos="fade-down" data-aos-easing="linear" data-aos-duration="950" data-aos-once="true">
-                    <img class="card-img-top  prod_img img-fluid" src="Assets/WORKOUT_SPORT_DI_RESISTENZA.png" alt="Card image cap" style="width: 8em;">
+                <div class="card   prod_feature second_row_card " data-aos="fade-down" data-aos-easing="linear"
+                    data-aos-duration="950" data-aos-once="true">
+                    <img class="card-img-top  prod_img img-fluid" src="Assets/WORKOUT_SPORT_DI_RESISTENZA.png" alt="Card image cap"
+                        style="width: 8em;">
                     <div class="card-body">
                         <h5 class="card-title prod_name">WORKOUT SPORT DI RESISTENZA</h5>
-                        <p class="card-text prod_text">«Il tuo Kit contro la fatica e un complice per il recupero muscolare» </p>
+                        <p class="card-text prod_text">«Il tuo Kit contro la fatica e un complice per il recupero
+                            muscolare» </p>
 
                     </div>
                 </div>
@@ -160,11 +176,14 @@
         <!--6th Prod -->
         <div class="col-md-4 col-sm-6 col-lg-3 ">
             <a class="nodecoration" target="_blank" href="https://club24hl.goherbalife.com/Catalog/Product/Combo/it-IT/6">
-                <div class="card  prod_feature second_row_card  " data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1000" data-aos-once="true">
-                    <img class="card-img-top prod_img img-fluid" src="Assets/VITAMINE_E_MINERALI_PER_DONNA.png" alt="Card image cap" style="width: 8em;">
+                <div class="card  prod_feature second_row_card  " data-aos="fade-down" data-aos-easing="linear"
+                    data-aos-duration="1000" data-aos-once="true">
+                    <img class="card-img-top prod_img img-fluid" src="Assets/VITAMINE_E_MINERALI_PER_DONNA.png" alt="Card image cap"
+                        style="width: 8em;">
                     <div class="card-body">
                         <h5 class="card-title prod_name">VITAMINE E MINERALI PER DONNA</h5>
-                        <p class="card-text prod_text">«Il pieno di vitamine e minerali per tutti i giorni contro la stanchezza e l’affaticamento» </p>
+                        <p class="card-text prod_text">«Il pieno di vitamine e minerali per tutti i giorni contro la
+                            stanchezza e l’affaticamento» </p>
 
                     </div>
                 </div>
@@ -295,9 +314,10 @@
                 <span class="fa fa-star checked"></span>
                 <span class="fa fa-star checked"></span>
             </div>
-            <p class="SlidePara">Conosco Stefano da 4 anni ormai. Coach simpaticissimo ma anche molto professionale in quello che fa, mi ha seguito nella perdita peso con ottimi risultati, adesso continuò con la colazione.
-A casa mia facciamo tutti la colazione equilibrata visto che è anche buona 
- </p>
+            <p class="SlidePara">Conosco Stefano da 4 anni ormai. Coach simpaticissimo ma anche molto professionale in
+                quello che fa, mi ha seguito nella perdita peso con ottimi risultati, adesso continuò con la colazione.
+                A casa mia facciamo tutti la colazione equilibrata visto che è anche buona
+            </p>
         </div>
         <div class="swiper-slide customcard slide2">
             <img class="profileimg" src="Assets/FedericaBega.png" alt="">
@@ -309,7 +329,10 @@ A casa mia facciamo tutti la colazione equilibrata visto che è anche buona
                 <span class="fa fa-star checked"></span>
                 <span class="fa fa-star checked"></span>
             </div>
-            <p class="SlidePara">Io sono una Personal Trainer ed avevo bisogno di quel qualcosa in più per avere più energia durante il giorno, così grazie ai consigli di Stefano ho conosciuto ed iniziato con i prodotti Herbalife ed oltre ad avere un sacco di energia in più mi sono maggiormente definita a livello muscolare! Consiglio a tutti seguire le sue dritte</p>
+            <p class="SlidePara">Io sono una Personal Trainer ed avevo bisogno di quel qualcosa in più per avere più
+                energia durante il giorno, così grazie ai consigli di Stefano ho conosciuto ed iniziato con i prodotti
+                Herbalife ed oltre ad avere un sacco di energia in più mi sono maggiormente definita a livello
+                muscolare! Consiglio a tutti seguire le sue dritte</p>
         </div>
         <div class="swiper-slide customcard slide3">
             <img class="profileimg" src="Assets/MarcelloMantovani.png" alt="">
@@ -321,7 +344,8 @@ A casa mia facciamo tutti la colazione equilibrata visto che è anche buona
                 <span class="fa fa-star checked"></span>
                 <span class="fa fa-star checked"></span>
             </div>
-            <p class="SlidePara">Un vero professionista, sempre disponibile nel fornire consigli su alimentazione ed attivitá fisica. Consigliatissimo!</p>
+            <p class="SlidePara">Un vero professionista, sempre disponibile nel fornire consigli su alimentazione ed
+                attivitá fisica. Consigliatissimo!</p>
         </div>
         <div class="swiper-slide customcard slide1">
             <img class="profileimg" src="Assets/FedericaGelli.png" alt="">
@@ -333,7 +357,10 @@ A casa mia facciamo tutti la colazione equilibrata visto che è anche buona
                 <span class="fa fa-star checked"></span>
                 <span class="fa fa-star checked"></span>
             </div>
-            <p class="SlidePara">Ho conosciuto Stefano un’anno e mezzo fa tramite Facebook. Avevo bisogno di perdere peso, e nonostante la distanza, mi ha dato tanta assistenza, tanti consigli e tanto supporto ma soprattutto mi ha fatto ritrovare la forma fisica che volevo!! È formidabile anche nello sport, ho partecipato ad un suo allenamento, divertimento e professionalità al top</p>
+            <p class="SlidePara">Ho conosciuto Stefano un’anno e mezzo fa tramite Facebook. Avevo bisogno di perdere
+                peso, e nonostante la distanza, mi ha dato tanta assistenza, tanti consigli e tanto supporto ma
+                soprattutto mi ha fatto ritrovare la forma fisica che volevo!! È formidabile anche nello sport, ho
+                partecipato ad un suo allenamento, divertimento e professionalità al top</p>
         </div>
         <div class="swiper-slide customcard slide2">
             <img class="profileimg" src="Assets/SilviaMedda.png" alt="">
@@ -345,7 +372,9 @@ A casa mia facciamo tutti la colazione equilibrata visto che è anche buona
                 <span class="fa fa-star checked"></span>
                 <span class="fa fa-star checked"></span>
             </div>
-            <p class="SlidePara">Conosco Stefano da anni…preparato professionalmente simpaticissimo davvero un bravissimo coach….i risultati sono stati molto eccellenti….Nn solo da parte mia …Anche da parte di mio marito…..sei straordinario veramente…sei un grande ste!</p>
+            <p class="SlidePara">Conosco Stefano da anni…preparato professionalmente simpaticissimo davvero un
+                bravissimo coach….i risultati sono stati molto eccellenti….Nn solo da parte mia …Anche da parte di mio
+                marito…..sei straordinario veramente…sei un grande ste!</p>
         </div>
     </div>
     <!-- Add Pagination -->
@@ -389,7 +418,7 @@ A casa mia facciamo tutti la colazione equilibrata visto che è anche buona
                 <form action="sendEmail.php" method="post" name="form">
                     <div class="form-row form_contact">
                         <div class="form-group col-md-6">
-                            <input  type="text" name="name" class="form-control" id="inputname4" placeholder="Full Name">
+                            <input type="text" name="name" class="form-control" id="inputname4" placeholder="Full Name">
                         </div>
                         <div class="form-group col-md-6">
                             <input type="email" name="mail" class="form-control" id="inputEmail4" placeholder="Email">
@@ -399,7 +428,8 @@ A casa mia facciamo tutti la colazione equilibrata visto che è anche buona
                             <input type="text" name="subject" class="form-control" id="inputsubject" placeholder="Subject">
                         </div>
                         <div class="form-group col-md-12">
-                            <textarea name="message" rows="8" cols="80" class="form-control" id="inputmessage" placeholder="Message"></textarea>
+                            <textarea name="message" rows="8" cols="80" class="form-control" id="inputmessage"
+                                placeholder="Message"></textarea>
                         </div>
                         <br>
                         <button type="submit" class="btn btn_contact col-md-12">Submit</button>

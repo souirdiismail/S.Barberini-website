@@ -25,7 +25,7 @@
 <body>
     <!-- NAVBAR -->
     <div>
-        <nav class="navbar navbar-expand-lg navbar-dark container col-12">
+        <nav class="navbar navbar-expand-xl navbar-dark container col-12">
             <a class="navbar-brand" href="index"><img src="assets/c24 logo dark.png" class="logo" alt="..."></a>
             <button class="navbar-toggler navbuton" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon">

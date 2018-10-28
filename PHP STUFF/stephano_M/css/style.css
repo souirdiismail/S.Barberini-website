@@ -1,9 +1,10 @@
 ﻿@import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
 @import url('https://fonts.googleapis.com/css?family=Lato:300,400,700');
+
 @font-face {
     font-family: 'atelier_omega';
     src: url('../fonts/Omega/atelier_omega.woff2') format('woff2'),
-         url('../fonts/Omega/atelier_omega.woff') format('woff');
+        url('../fonts/Omega/atelier_omega.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 }
@@ -135,6 +136,12 @@ a:hover+.line .focusedline {
     padding-bottom: 20px;
 }
 
+.trans {
+    padding: 0 !important;
+    background: transparent !important;
+}
+
+
 center {
     padding-top: 50px;
     background: white;
@@ -183,6 +190,7 @@ center {
     height: 60px !important;
     text-transform: uppercase !important;
 }
+
 .nodecoration {
     text-decoration: none;
 }
@@ -223,11 +231,7 @@ center {
 }
 
 @media (max-width:991px) {
-    .bordered {
-        padding: 0px 10px !important;
-        margin-top: 5px;
-        margin-bottom: 5px;
-    }
+    
 
     .NON_C_È_TEMPO_MIGLIORE_DI_ORA_PER_INIZIARE__VIV {
         font-size: 20px;
@@ -236,34 +240,6 @@ center {
     .club24hl {
         font-size: 100px;
     }
-
-    .show ul {
-        padding-bottom: 30px;
-    }
-
-    .show ul li a {
-        padding-bottom: 15px;
-    }
-
-    .show ul li .line {
-        vertical-align: middle;
-        margin-top: -2.5rem;
-    }
-
-    .collapsing ul {
-        padding-bottom: 30px;
-    }
-
-    .collapsing ul li a {
-        padding-bottom: 15px;
-    }
-
-    .collapsing ul li .line {
-        vertical-align: middle;
-        margin-top: -2.5rem;
-    }
-
-
 }
 
 @media (max-width:400px) {
@@ -298,7 +274,8 @@ center {
 
 @media (max-width:200px) {
     .section1 {
-        padding: 0 !important;
+        padding-left: 0 !important;
+        padding-right: 0 !important;
     }
 
     .box1 {
@@ -349,6 +326,7 @@ center {
 }
 
 .herbaimg {
+    margin-top: 30px;
     width: 100%;
     max-width: 508px;
 }
@@ -555,13 +533,13 @@ center {
     background: url(../Assets/AboutMe.png) no-repeat 50% 50% fixed;
     background-color: #ffffff;
     width: 100%;
-    height: 820px;
+    min-height: 820px;
+    height: auto;
+    padding-bottom: 40px;
     background-size: cover;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
-
-
 }
 
 .about_text {
@@ -643,13 +621,14 @@ center {
     background-repeat: no-repeat;
     background-attachment: fixed;
     margin-top: 50px;
-    height: 1200px;
+    min-height: 1200px;
+    height: auto;
     top: 0;
+    padding-bottom: 30px;
     left: 0;
     right: 0;
     bottom: 0;
     background-size: cover;
-
 }
 
 .content_contact h1 {
@@ -767,7 +746,7 @@ center {
 .swiper-container {
     width: 100%;
     padding-top: 100px;
-   padding-bottom: 50px;
+    padding-bottom: 50px;
 }
 
 .swiper-slide {
@@ -809,13 +788,13 @@ center {
     color: white;
     position: absolute;
     left: 50%;
-   transform: translateX(-50%);
+    transform: translateX(-50%);
     width: fit-content;
     top: 14%;
 }
+
 /*Fixing long client names*/
-#Fclient
-{
+#Fclient {
     transform: translateX(-20%);
     font-size: 26pt;
     left: 35%;
@@ -853,6 +832,7 @@ center {
 }
 
 /*Media screen for small devices */
+
 @media (max-width:900PX) {
     .swiper-slide {
 
@@ -871,17 +851,22 @@ center {
 
     .clientname {
         font-size: 12pt;
-       margin-top: -15%;
+        margin-top: -15%;
         /*margin-left: 10%;*/
     }
-    /*Fixing long client names*/
-#Fclient
-{
-    transform: translateX(-6%);
-    font-size: 12pt;
-    left: 20%;
-}
 
+    /*Fixing long client names*/
+    #Fclient {
+        transform: translateX(-6%);
+        font-size: 12pt;
+        left: 20%;
+    }
+
+    .WatchVideo iframe {
+        margin: 1% 0% 0% 0% !important;
+        height: 100px !important;
+        width: 20% !important;
+    }
 
     .ratinStars {
         position: absolute;
@@ -889,12 +874,6 @@ center {
         margin-top: 40%;
         margin-left: 0%;
     }
-    .WatchVideo iframe
-{
-        margin: 1% 0% 0% 0% !important;
-        height: 100px !important;
-        width: 20% !important;
-}
 }
 
 /* End Mendili's Customers*/
@@ -1010,8 +989,9 @@ hr {
     .first_row_card {
         margin-top: 13px;
     }
-    .first_blog_row_card{
-        margin-top: 13px;   
+
+    .first_blog_row_card {
+        margin-top: 13px;
     }
 
     .button_visita_il_nostro_negozio {
@@ -1044,13 +1024,15 @@ hr {
         height: auto !important;
         padding-bottom: 40px;
     }
+
     .simple_contact h3 {
         font-size: 17px !important;
     }
-    .num_tel{
+
+    .num_tel {
         font-size: 22px !important;
     }
-   
+
 }
 
 @media (max-width: 768px) {
@@ -1069,10 +1051,10 @@ hr {
         margin-top: 13px;
     }
 
-    .first_blog_row_card{
-        margin-top: 13px; 
+    .first_blog_row_card {
+        margin-top: 13px;
     }
-    
+
     .about_me_section {
         height: 1050px;
     }
@@ -1088,9 +1070,40 @@ hr {
     }
 }
 
-@media (max-width: 1200px) {
+@media (max-width: 1199px) {
     .about_me_section {
         height: 1050px;
+    }
+    .show ul {
+        padding-bottom: 30px;
+    }
+
+    .show ul li a {
+        padding-bottom: 15px;
+    }
+
+    .show ul li .line {
+        vertical-align: middle;
+        margin-top: -2.5rem;
+    }
+
+    .collapsing ul {
+        padding-bottom: 30px;
+    }
+
+    .collapsing ul li a {
+        padding-bottom: 15px;
+    }
+
+    .collapsing ul li .line {
+        vertical-align: middle;
+        margin-top: -2.5rem;
+    }
+    
+    .bordered {
+        padding: 0px 10px !important;
+        margin-top: 5px;
+        margin-bottom: 5px;
     }
 
 }
@@ -1103,7 +1116,7 @@ only screen and (min-device-pixel-ratio: 1.5) {
         height: 1150px;
     }
 
-    
+
 }
 
 /* iPhone 4/4S */
@@ -1112,7 +1125,7 @@ only screen and (min-device-pixel-ratio: 1.5) {
         height: 1150px;
     }
 
-    
+
 }
 
 /* End of Media*/
@@ -1425,13 +1438,14 @@ input[type="checkbox"]:checked+.slider:before {
     }
 }
 
-.first_blog_row_card{
-    margin-bottom: 13px; 
+.first_blog_row_card {
+    margin-bottom: 13px;
     border-radius: 10px !important;
     background-color: rgb(255, 255, 255) !important;
     box-shadow: 0px 3px 50px 0px rgba(6, 29, 71, 0.08) !important;
 }
-.blog_cards_deck{
+
+.blog_cards_deck {
     padding-top: 40px;
 }
 
@@ -1459,20 +1473,25 @@ input[type="checkbox"]:checked+.slider:before {
     text-decoration: none;
     color: white;
 }
+
 /*Cookies */
-.cookies_section{
+.cookies_section {
     margin-top: 55px;
 }
+
 /*End cookies*/
 /* Watch Videos*/
-.WatchVideo iframe
-{
-        margin: 1% 0% 0% 25% !important;
-        height: 500px !important;
-        width: 50% !important;
+
+
+
+.WatchVideo iframe {
+    margin: 1% 0% 0% 25% !important;
+    height: 500px !important;
+    width: 50% !important;
 }
+
 /*privacy_policy  by Ismail*/
-.privacy_policy li{
+.privacy_policy li {
     list-style: none;
 
     padding-top: 15px;
