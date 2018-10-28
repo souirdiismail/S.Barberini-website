@@ -1032,6 +1032,13 @@ hr {
         height: 1050px;
 
     }
+    .simple_contact h3 {
+        font-size: 17px !important;
+    }
+    .num_tel{
+        font-size: 22px !important;
+    }
+   
 }
 
 @media (max-width: 768px) {
@@ -1087,9 +1094,7 @@ only screen and (min-device-pixel-ratio: 1.5) {
         height: 1150px;
     }
 
-    .simple_contact h3 {
-        font-size: 24px;
-    }
+    
 }
 
 /* iPhone 4/4S */
@@ -1098,9 +1103,7 @@ only screen and (min-device-pixel-ratio: 1.5) {
         height: 1150px;
     }
 
-    .simple_contact h3 {
-        font-size: 24px;
-    }
+    
 }
 
 /* End of Media*/
@@ -1217,9 +1220,7 @@ section .section-title {
     color: white;
 }
 
-.form_contact {
-    margin: 20px 120px 20px 120px;
-}
+
 
 .btn_contact_coach {
     border-radius: 10px;

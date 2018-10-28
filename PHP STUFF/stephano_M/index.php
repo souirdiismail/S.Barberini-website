@@ -78,9 +78,9 @@
     <div class="row justify-content-center">
         <!--1st Prod -->
         <div class="col-md-4 col-sm-6 col-lg-3 ">
-            <a class="nodecoration" href="">
+            <a class="nodecoration" target="_blank" href="https://club24hl.goherbalife.com/Catalog/Product/Combo/it-IT/9">
                 <div class="card  prod_feature first_row_card " data-aos="fade-down" data-aos-easing="linear" data-aos-duration="750" data-aos-once="true">
-                    <img class="card-img-top  prod_img img-fluid" src="Assets/product card 1.png" alt="Card image cap" style="width: 8em;">
+                    <img class="card-img-top  prod_img img-fluid" src="Assets/COLAZIONE_EQUILIBRATA.png" alt="Card image cap" style="width: 8em;">
                     <div class="card-body">
                         <h5 class="card-title prod_name">COLAZIONE EQUILIBRATA </h5>
                         <p class="card-text prod_text">«La buona Colazione nutriente per la tua forma fisica, tanto benessere, energia e un forte aiuto contro la ritenzione » </p>
@@ -94,9 +94,9 @@
 
         <!--2nd Prod -->
         <div class="col-md-4 col-sm-6 col-lg-3  ">
-            <a class="nodecoration" href="">
+            <a class="nodecoration" target="_blank" href="https://club24hl.goherbalife.com/Catalog/Product/Combo/it-IT/10">
                 <div class="card  prod_feature  first_row_card " data-aos="fade-down" data-aos-easing="linear" data-aos-duration="800" data-aos-once="true">
-                    <img class="card-img-top  prod_img img-fluid" src="Assets/product card 2.png" alt="Card image cap" style="width: 12.6em;">
+                    <img class="card-img-top  prod_img img-fluid" src="Assets/COLAZIONE_EQUILIBRATA_CON_PROTEINE.png" alt="Card image cap" style="width: 12.6em;">
                     <div class="card-body">
                         <h5 class="card-title prod_name">COLAZIONE EQUILIBRATA CON PROTEINE </h5>
                         <p class="card-text prod_text">«Colazione per la tua forma fisica per te che non ami il latte e vuoi aggiungere proteine buone da leccarsi i baffi» </p>
@@ -109,9 +109,9 @@
 
         <!--3rd Prod -->
         <div class="col-md-4 col-sm-6 col-lg-3  ">
-            <a class="nodecoration" href="">
+            <a class="nodecoration" target="_blank" href="https://club24hl.goherbalife.com/Catalog/Product/Combo/it-IT/10">
                 <div class="card  prod_feature first_row_card  " data-aos="fade-down" data-aos-easing="linear" data-aos-duration="850" data-aos-once="true">
-                    <img class="card-img-top  prod_img img-fluid" src="Assets/product card 1.png" alt="Card image cap" style="width: 8em;">
+                    <img class="card-img-top  prod_img img-fluid" src="Assets/PROGRAMMA_PERDITA_PESO.png" alt="Card image cap" style="width: 8em;">
                     <div class="card-body">
                         <h5 class="card-title prod_name">PROGRAMMA PERDITA PESO</h5>
                         <p class="card-text prod_text">«Il tuo kit completo per dimagrire con gusto, depurare, drenare e nutrire la tua massa muscolare»</p>
@@ -124,9 +124,9 @@
 
         <!--4th Prod -->
         <div class="col-md-4 col-sm-6 col-lg-3  ">
-            <a class="nodecoration" href="">
+            <a class="nodecoration" target="_blank" href="https://club24hl.goherbalife.com/Catalog/Product/Combo/it-IT/8">
                 <div class="card  prod_feature first_row_card  " data-aos="fade-down" data-aos-easing="linear" data-aos-duration="900" data-aos-once="true">
-                    <img class="card-img-top prod_img img-fluid" src="Assets/product card 1.png" alt="Card image cap" style="width: 8em;">
+                    <img class="card-img-top prod_img img-fluid" src="Assets/WORKOUT_SPORT_DI_FORZA.png" alt="Card image cap" style="width: 8em;">
                     <div class="card-body">
                         <h5 class="card-title prod_name">WORKOUT SPORT DI FORZA</h5>
                         <p class="card-text prod_text">«Il tuo alleato per la palestra. Aumento massa, energia e recupero muscolare»</p>
@@ -144,9 +144,9 @@
         <!--5th Prod -->
         <div class="col-lg-offset-3"></div>
         <div class=" col-md-4 col-sm-6 col-lg-3 ">
-            <a class="nodecoration" href="">
+            <a class="nodecoration" target="_blank" href="https://club24hl.goherbalife.com/Catalog/Product/Combo/it-IT/7">
                 <div class="card   prod_feature second_row_card " data-aos="fade-down" data-aos-easing="linear" data-aos-duration="950" data-aos-once="true">
-                    <img class="card-img-top  prod_img img-fluid" src="Assets/product card 1.png" alt="Card image cap" style="width: 8em;">
+                    <img class="card-img-top  prod_img img-fluid" src="Assets/WORKOUT_SPORT_DI_RESISTENZA.png" alt="Card image cap" style="width: 8em;">
                     <div class="card-body">
                         <h5 class="card-title prod_name">WORKOUT SPORT DI RESISTENZA</h5>
                         <p class="card-text prod_text">«Il tuo Kit contro la fatica e un complice per il recupero muscolare» </p>
@@ -159,9 +159,9 @@
 
         <!--6th Prod -->
         <div class="col-md-4 col-sm-6 col-lg-3 ">
-            <a class="nodecoration" href="">
+            <a class="nodecoration" target="_blank" href="https://club24hl.goherbalife.com/Catalog/Product/Combo/it-IT/6">
                 <div class="card  prod_feature second_row_card  " data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1000" data-aos-once="true">
-                    <img class="card-img-top prod_img img-fluid" src="Assets/product card 1.png" alt="Card image cap" style="width: 8em;">
+                    <img class="card-img-top prod_img img-fluid" src="Assets/VITAMINE_E_MINERALI_PER_DONNA.png" alt="Card image cap" style="width: 8em;">
                     <div class="card-body">
                         <h5 class="card-title prod_name">VITAMINE E MINERALI PER DONNA</h5>
                         <p class="card-text prod_text">«Il pieno di vitamine e minerali per tutti i giorni contro la stanchezza e l’affaticamento» </p>
@@ -379,7 +379,7 @@ A casa mia facciamo tutti la colazione equilibrata visto che è anche buona
                 <br>
                 <br>
                 <br>
-                <span>+39 707 041 997</span>
+                <span class="num_tel">+39 707 041 997</span>
                 <br><br><br><br><br>
                 <div class="box message">
                     <span data-num="1">Or send message</span>
@@ -389,7 +389,7 @@ A casa mia facciamo tutti la colazione equilibrata visto che è anche buona
                 <form action="sendEmail.php" method="post" name="form">
                     <div class="form-row form_contact">
                         <div class="form-group col-md-6">
-                            <input type="text" name="name" class="form-control" id="inputname4" placeholder="Full Name">
+                            <input  type="text" name="name" class="form-control" id="inputname4" placeholder="Full Name">
                         </div>
                         <div class="form-group col-md-6">
                             <input type="email" name="mail" class="form-control" id="inputEmail4" placeholder="Email">
