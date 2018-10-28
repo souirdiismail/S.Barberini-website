@@ -9,6 +9,7 @@ $GLOBALS['conn'] = new mysqli($servername, $username, $password,$dbname);
         $conn = $GLOBALS["conn"];
         $sql = "select * from videos";
         $results = $conn -> query($sql);
+        
         while ($row = mysqli_fetch_row($results)) {
             echo '<div class="col-md-4 col-sm-6 ">';
             echo '<div class="card first_blog_row_card animated  fadeInDown ">';
@@ -22,15 +23,20 @@ $GLOBALS['conn'] = new mysqli($servername, $username, $password,$dbname);
             echo '</div></div>';
         }
     }
-
     function watch_videos($id)
     {
         $conn = $GLOBALS["conn"];
-        $query = "SELECT url from videos where id=$id";
+        $query = "select url from videos where id=$id";
         $results = mysqli_query($conn,$query);
         while ($row1 = mysqli_fetch_row($results)) {
             echo  $row1[0];
         }
         
+    }
+
+    function addcoach($email,$fullname,$mail_subject,$content){
+        $conn = $GLOBALS["conn"];
+        $query="INSERT INTO `coach`(`email`, `fullname`, `mail_subject`, `content`, `datemail`, `confirmed`) VALUES ('{$email}','{$fullname}','{$mail_subject}','{$content}',getdate(),0)";
+        $conn->query($query);
     }
 ?>
