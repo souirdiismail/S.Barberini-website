@@ -33,7 +33,9 @@
 
 <!-- SLIDERS -->
 <section class="slides section2">
-    <div id="Productsslider" class="carousel slide" data-ride="carousel">
+    
+<center class="trans">
+    <div id="Productsslider" class="carousel slide" data-ride="carousel" data-interval="7000">
         <ol class="carousel-indicators">
             <li data-target="#Productsslider" data-slide-to="0" class="active"></li>
             <li data-target="#Productsslider" data-slide-to="1"></li>
@@ -54,14 +56,17 @@
             </div>
         </div>
         <a class="carousel-control-prev" href="#Productsslider" role="button" data-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="sr-only">Previous</span>
+            <img src="Assets/arrow slider left.png">
+            <!-- <span class="carousel-control-prev-icon" aria-hidden="true"></span> -->
+            <!-- <span class="sr-only">Previous</span> -->
         </a>
         <a class="carousel-control-next" href="#Productsslider" role="button" data-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="sr-only">Next</span>
+            <img src="Assets/arrow slider right.png">
+            <!-- <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span> -->
         </a>
     </div>
+</center>
     <center>
         <div class="botomborder">
             <img class="herbaimg" src="Assets/Herbalife_Nutrition_Logo_2016.png" />
@@ -200,7 +205,7 @@
 <!--/*VISITA IL NOSTRO NEGOZIO Button*/-->
 
 <div class=" btn_vista_div text-center">
-    <button class="btn  button_visita_il_nostro_negozio"><a href="">VISITA IL NOSTRO NEGOZIO</a></button>
+    <button class="btn  button_visita_il_nostro_negozio"><a href="https://club24hl.goherbalife.com/Catalog/Home/Index/it-IT/" target="_blank">VISITA IL NOSTRO NEGOZIO</a></button>
 </div>
 <!--/* End VISITA IL NOSTRO NEGOZIO Button*/-->
 <!-- Title -->

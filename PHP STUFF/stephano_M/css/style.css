@@ -48,7 +48,7 @@ body {
     background-color: rgb(243, 247, 250);
     box-shadow: 0px 12px 95px 0px rgba(0, 0, 0, 0.22);
     /* width: 1922px; */
-    /* height: 118px; */
+    height: 80px;
 }
 
 nav ul li a {
@@ -175,6 +175,7 @@ center {
 }
 
 .products {
+    margin: 20px 0px;
     color: rgb(255, 255, 255) !important;
     border-radius: 3px;
     background-image: -moz-linear-gradient(45deg, rgb(0, 192, 193) 0%, rgb(0, 197, 167) 100%);
@@ -182,8 +183,7 @@ center {
     background-image: -ms-linear-gradient(45deg, rgb(0, 192, 193) 0%, rgb(0, 197, 167) 100%);
     box-shadow: 0px 5px 15px 0px rgba(0, 0, 0, 0.2);
     z-index: 15 !important;
-    width: 10vw !important;
-    min-width: 200px !important;
+    width: 200px !important;
     min-height: 45px !important;
     font-size: 20px !important;
     padding: 0px 20px !important;
@@ -216,10 +216,11 @@ center {
     min-width: 200px !important;
     font-size: 20px !important;
     min-height: 60px !important;
-    max-width: 40vw !important;
+    max-width: 500px !important;
     width: 100% !important;
     vertical-align: middle !important;
 }
+
 
 @media (max-width:1150px) {
     .nav-item {
@@ -317,8 +318,12 @@ center {
     background: #00b0ab !important;
 }
 
+#Productsslider {
+    max-width: 1920px;
+}
+
 .section2 {
-    margin-top: -14vw;
+    margin-top: -200px;
 }
 
 .section1 {
@@ -1076,6 +1081,7 @@ hr {
     }
     .show ul {
         padding-bottom: 30px;
+        padding-right: 0;   
     }
 
     .show ul li a {
@@ -1089,6 +1095,7 @@ hr {
 
     .collapsing ul {
         padding-bottom: 30px;
+        padding-right: 0;
     }
 
     .collapsing ul li a {
