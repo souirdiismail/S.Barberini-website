@@ -1,5 +1,12 @@
 ﻿@import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
 @import url('https://fonts.googleapis.com/css?family=Lato:300,400,700');
+@font-face {
+    font-family: 'atelier_omega';
+    src: url('../fonts/Omega/atelier_omega.woff2') format('woff2'),
+         url('../fonts/Omega/atelier_omega.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
 
 html,
 body {
@@ -89,7 +96,7 @@ a:hover+.line .focusedline {
 
 .club24hl {
     font-size: 9vw;
-    font-family: "Atelier Omega";
+    font-family: "atelier_omega";
     color: rgb(255, 255, 255);
     line-height: 1.2;
     text-align: center;
@@ -722,7 +729,6 @@ center {
     border-radius: 5px;
     background-color: rgb(245, 247, 248);
     box-shadow: 0px 17px 59px 0px rgba(6, 29, 71, 0.09);
-    max-width: 443px;
     height: 100px;
 }
 
@@ -1029,8 +1035,8 @@ hr {
     }
 
     .about_me_section {
-        height: 1050px;
-
+        height: auto !important;
+        padding-bottom: 40px;
     }
     .simple_contact h3 {
         font-size: 17px !important;
@@ -1073,9 +1079,6 @@ hr {
 @media screen and (max-width: 800px) {
     .background_contact {
         height: 1300px;
-
-
-
     }
 }
 
