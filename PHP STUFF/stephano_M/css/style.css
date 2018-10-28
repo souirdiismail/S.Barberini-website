@@ -349,7 +349,6 @@ center {
 }
 
 .herbaimg {
-    margin-top: 30px;
     width: 100%;
     max-width: 508px;
 }
@@ -556,13 +555,13 @@ center {
     background: url(../Assets/AboutMe.png) no-repeat 50% 50% fixed;
     background-color: #ffffff;
     width: 100%;
-    min-height: 820px;
-    height: auto;
-    padding-bottom: 40px;
+    height: 820px;
     background-size: cover;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
+
+
 }
 
 .about_text {
@@ -644,14 +643,13 @@ center {
     background-repeat: no-repeat;
     background-attachment: fixed;
     margin-top: 50px;
-    min-height: 1200px;
-    height: auto;
+    height: 1200px;
     top: 0;
-    padding-bottom: 30px;
     left: 0;
     right: 0;
     bottom: 0;
     background-size: cover;
+
 }
 
 .content_contact h1 {
@@ -891,6 +889,12 @@ center {
         margin-top: 40%;
         margin-left: 0%;
     }
+    .WatchVideo iframe
+{
+        margin: 1% 0% 0% 0% !important;
+        height: 100px !important;
+        width: 20% !important;
+}
 }
 
 /* End Mendili's Customers*/
@@ -1464,8 +1468,8 @@ input[type="checkbox"]:checked+.slider:before {
 .WatchVideo iframe
 {
         margin: 1% 0% 0% 25% !important;
-        height: 600px !important;
-        width: 1000px !important;
+        height: 500px !important;
+        width: 50% !important;
 }
 /*privacy_policy  by Ismail*/
 .privacy_policy li{

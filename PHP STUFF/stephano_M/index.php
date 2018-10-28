@@ -16,7 +16,7 @@
                     <form>
                         <div class="form_sub">
                             <div class="form-group1 col-12">
-                                <input type="email" class="email" id="Email" placeholder="Email">
+                                <input type="email" class="email" id="Email" required="" placeholder="Email">
                                 <button type="submit" class="btn products">Subscribe</button>
                             </div>
                         </div>
