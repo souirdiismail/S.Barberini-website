@@ -77,7 +77,7 @@
 
 <!--Starting Products Features -->
 <div class="text-center Products_features" id="Prodotto">
-    <h2>Products Features</h2>
+    <h2><strong>PRODOTTO</strong> </h2>
 </div>
 <!--First Row  -->
 <div class="container cards_deck">
@@ -263,7 +263,7 @@
         <div class="row py-5">
             <div class="col-12">
                 <h2 class=" text-center about_text" id="chi_sono">
-                    About Me
+                    CHI SONO
                 </h2>
             </div>
         </div>
@@ -393,7 +393,7 @@
     <div class="container">
         <div class="content_contact ">
             <br><br>
-            <h1>Contact Us</h1>
+            <h1>CONTATTO SULLA</h1>
             <br><br><br>
             <div class="whatsapp-api text-center">
                 <button class="btn whatsapp-border">

@@ -6,17 +6,18 @@
             <div class="col-xs-12 col-sm-4 col-md-4">
                 <h5>Sections</h5>
                 <ul class="list-unstyled quick-links">
-                    <li><a href="index"><i class="fa fa-angle-double-right"></i>Home</a></li>
+                    <li><a href="index"><i class="fa fa-angle-double-right"></i>HOME</a></li>
                     <li><a href="<?php if($pageName=='index'){echo '#Prodotto';}else{ echo 'index#Prodotto';}?>"><i class="fa fa-angle-double-right"></i>Productto</a></li>
-                    <li><a href="chi sono"><i class="fa fa-angle-double-right"></i>About</a></li>
-                    <li><a href="Video"><i class="fa fa-angle-double-right"></i>Blog</a></li>
+                    <li><a href="chi sono"><i class="fa fa-angle-double-right"></i>CHI SONO</a></li>
+                    <li><a href="Video"><i class="fa fa-angle-double-right"></i>Video</a></li>
+                    <li><a href="Video"><i class="fa fa-angle-double-right"></i>DIVENTA PERSONAL COACH</a></li>
 
                 </ul>
             </div>
             <div class="col-xs-12 col-sm-4 col-md-4">
-                <h5>Contact</h5>
+                <h5>CONTACT</h5>
                 <ul class="list-unstyled quick-links">
-                    <li><a href="<?php if($pageName=='index' ){echo '#ContactUs' ;}else{ echo 'index#ContactUs';}?>"><i class="fa fa-angle-double-right"></i>Contact Us</a></li>
+                    <li><a href="<?php if($pageName=='index' ){echo '#ContactUs' ;}else{ echo 'index#ContactUs';}?>"><i class="fa fa-angle-double-right"></i>CONTATTO SULLA</a></li>
 
                 </ul>
             </div>
