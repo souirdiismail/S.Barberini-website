@@ -763,8 +763,8 @@ center {
 /*The maine container of all slides*/
 .swiper-container {
     width: 100%;
-    padding-top: 150px;
-    padding-bottom: 50px;
+    padding-top: 100px;
+   padding-bottom: 50px;
 }
 
 .swiper-slide {
@@ -806,18 +806,24 @@ center {
     color: white;
     position: absolute;
     left: 50%;
-    transform: translateX(-50%);
+   transform: translateX(-50%);
     width: fit-content;
     top: 14%;
+}
+/*Fixing long client names*/
+#Fclient
+{
+    transform: translateX(-20%);
+    font-size: 26pt;
+    left: 35%;
 }
 
 /*the text in the sliders cards*/
 .SlidePara {
     color: white;
-    margin-top: 50%;
     text-align: center;
     font-size: 18pt;
-    margin: 50% 6% 0 6%;
+    margin: 42% 6% 0% 6%;
 
 }
 
@@ -855,22 +861,30 @@ center {
 
     .SlidePara {
         color: white;
-        margin-top: 90%;
-        font-size: 14pt;
+        margin-top: 60%;
+        font-size: 12.5pt;
 
     }
 
     .clientname {
         font-size: 12pt;
-        margin-top: 25%;
-        margin-left: 20%;
+       margin-top: -15%;
+        /*margin-left: 10%;*/
     }
+    /*Fixing long client names*/
+#Fclient
+{
+    transform: translateX(-6%);
+    font-size: 12pt;
+    left: 20%;
+}
+
 
     .ratinStars {
         position: absolute;
         font-size: 12pt;
         margin-top: 40%;
-        margin-left: 30%;
+        margin-left: 0%;
     }
 }
 
