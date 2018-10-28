@@ -15,9 +15,6 @@ body {
     padding: 0;
     width: 100%;
     font-family: "Lato";
-}
-
-body {
     overflow-x: hidden !important;
 }
 
@@ -31,6 +28,7 @@ body {
     background-position-y: 0;
     background-repeat: no-repeat;
     padding-bottom: 300px;
+    background-attachment: fixed;
 }
 
 .logo {
@@ -1207,7 +1205,7 @@ only screen and (min-device-pixel-ratio: 1.5) {
     font-size: 20px;
     font-family: "Lato";
     color: rgb(0, 0, 0);
-    font-weight: normal;
+    font-weight: bold;
     line-height: 1.2;
     text-align: left;
     /*padding: 30px 150px 0px 150px;*/

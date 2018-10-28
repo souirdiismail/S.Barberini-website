@@ -20,7 +20,7 @@
                 <div class="form_sub">
                     <div class="form-group1 col-12">
                         <input type="email" name="mailSub" class="email" id="Email" placeholder="Email" required="">
-                        <button type="submit" name="submit" class="btn products">Sottoscrivi</button>
+                        <button type="submit" name="submit" class="btn products">Subscribe</button>
                     </div>
                 </div>
             </form>
@@ -33,40 +33,40 @@
 
 <!-- SLIDERS -->
 <section class="slides section2">
-
-    <center class="trans">
-        <div id="Productsslider" class="carousel slide" data-ride="carousel" data-interval="7000">
-            <ol class="carousel-indicators">
-                <li data-target="#Productsslider" data-slide-to="0" class="active"></li>
-                <li data-target="#Productsslider" data-slide-to="1"></li>
-                <li data-target="#Productsslider" data-slide-to="2"></li>
-            </ol>
-            <div class="carousel-inner whitebordercarousel">
-                <div class="carousel-item active">
-                    <img class="d-block w-100" src="Assets/slide-1.png" alt="WORKOUT SPORT DI FORZA">
-                    <a class="btn productbutton" target="_blank" href="https://club24hl.goherbalife.com/Catalog/Product/Combo/it-IT/8"></a>
-                </div>
-                <div class="carousel-item">
-                    <img class="d-block w-100" src="Assets/slide-2.png" alt="COLAZIONE EQUILIBRATA">
-                    <a class="btn productbutton" target="_blank" href="https://club24hl.goherbalife.com/Catalog/Product/Combo/it-IT/9"></a>
-                </div>
-                <div class="carousel-item">
-                    <img class="d-block w-100" src="Assets/slide-3.png" alt="PROGRAMMA PERDITA PESO">
-                    <a class="btn productbutton" target="_blank" href="https://club24hl.goherbalife.com/Catalog/Product/Combo/it-IT/10"></a>
-                </div>
+    
+<center class="trans">
+    <div id="Productsslider" class="carousel slide" data-ride="carousel" data-interval="7000">
+        <ol class="carousel-indicators">
+            <li data-target="#Productsslider" data-slide-to="0" class="active"></li>
+            <li data-target="#Productsslider" data-slide-to="1"></li>
+            <li data-target="#Productsslider" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner whitebordercarousel">
+            <div class="carousel-item active">
+                <img class="d-block w-100" src="Assets/slide-1.png" alt="WORKOUT SPORT DI FORZA">
+                <a class="btn productbutton" target="_blank" href="https://club24hl.goherbalife.com/Catalog/Product/Combo/it-IT/8"></a>
             </div>
-            <a class="carousel-control-prev" href="#Productsslider" role="button" data-slide="prev">
-                <img src="Assets/arrow slider left.png">
-                <!-- <span class="carousel-control-prev-icon" aria-hidden="true"></span> -->
-                <!-- <span class="sr-only">Previous</span> -->
-            </a>
-            <a class="carousel-control-next" href="#Productsslider" role="button" data-slide="next">
-                <img src="Assets/arrow slider right.png">
-                <!-- <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="sr-only">Next</span> -->
-            </a>
+            <div class="carousel-item">
+                <img class="d-block w-100" src="Assets/slide-2.png" alt="COLAZIONE EQUILIBRATA">
+                <a class="btn productbutton" target="_blank" href="https://club24hl.goherbalife.com/Catalog/Product/Combo/it-IT/9"></a>
+            </div>
+            <div class="carousel-item">
+                <img class="d-block w-100" src="Assets/slide-3.png" alt="PROGRAMMA PERDITA PESO">
+                <a class="btn productbutton" target="_blank" href="https://club24hl.goherbalife.com/Catalog/Product/Combo/it-IT/10"></a>
+            </div>
         </div>
-    </center>
+        <a class="carousel-control-prev" href="#Productsslider" role="button" data-slide="prev">
+            <img src="Assets/arrow slider left.png">
+            <!-- <span class="carousel-control-prev-icon" aria-hidden="true"></span> -->
+            <!-- <span class="sr-only">Previous</span> -->
+        </a>
+        <a class="carousel-control-next" href="#Productsslider" role="button" data-slide="next">
+            <img src="Assets/arrow slider right.png">
+            <!-- <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span> -->
+        </a>
+    </div>
+</center>
     <center>
         <div class="botomborder">
             <img class="herbaimg" src="Assets/Herbalife_Nutrition_Logo_2016.png" />
@@ -85,8 +85,10 @@
         <!--1st Prod -->
         <div class="col-md-4 col-sm-6 col-lg-3 ">
             <a class="nodecoration" target="_blank" href="https://club24hl.goherbalife.com/Catalog/Product/Combo/it-IT/9">
-                <div class="card  prod_feature first_row_card " data-aos="fade-down" data-aos-easing="linear" data-aos-duration="750" data-aos-once="true">
-                    <img class="card-img-top  prod_img img-fluid" src="Assets/COLAZIONE_EQUILIBRATA.png" alt="Card image cap" style="width: 8em;">
+                <div class="card  prod_feature first_row_card " data-aos="fade-down" data-aos-easing="linear"
+                    data-aos-duration="750" data-aos-once="true">
+                    <img class="card-img-top  prod_img img-fluid" src="Assets/COLAZIONE_EQUILIBRATA.png" alt="Card image cap"
+                        style="width: 8em;">
                     <div class="card-body">
                         <h5 class="card-title prod_name">COLAZIONE EQUILIBRATA </h5>
                         <p class="card-text prod_text">«La buona Colazione nutriente per la tua forma fisica, tanto
@@ -102,8 +104,10 @@
         <!--2nd Prod -->
         <div class="col-md-4 col-sm-6 col-lg-3  ">
             <a class="nodecoration" target="_blank" href="https://club24hl.goherbalife.com/Catalog/Product/Combo/it-IT/10">
-                <div class="card  prod_feature  first_row_card " data-aos="fade-down" data-aos-easing="linear" data-aos-duration="800" data-aos-once="true">
-                    <img class="card-img-top  prod_img img-fluid" src="Assets/COLAZIONE_EQUILIBRATA_CON_PROTEINE.png" alt="Card image cap" style="width: 12.6em;">
+                <div class="card  prod_feature  first_row_card " data-aos="fade-down" data-aos-easing="linear"
+                    data-aos-duration="800" data-aos-once="true">
+                    <img class="card-img-top  prod_img img-fluid" src="Assets/COLAZIONE_EQUILIBRATA_CON_PROTEINE.png"
+                        alt="Card image cap" style="width: 12.6em;">
                     <div class="card-body">
                         <h5 class="card-title prod_name">COLAZIONE EQUILIBRATA CON PROTEINE </h5>
                         <p class="card-text prod_text">«Colazione per la tua forma fisica per te che non ami il latte e
@@ -118,8 +122,10 @@
         <!--3rd Prod -->
         <div class="col-md-4 col-sm-6 col-lg-3  ">
             <a class="nodecoration" target="_blank" href="https://club24hl.goherbalife.com/Catalog/Product/Combo/it-IT/10">
-                <div class="card  prod_feature first_row_card  " data-aos="fade-down" data-aos-easing="linear" data-aos-duration="850" data-aos-once="true">
-                    <img class="card-img-top  prod_img img-fluid" src="Assets/PROGRAMMA_PERDITA_PESO.png" alt="Card image cap" style="width: 8em;">
+                <div class="card  prod_feature first_row_card  " data-aos="fade-down" data-aos-easing="linear"
+                    data-aos-duration="850" data-aos-once="true">
+                    <img class="card-img-top  prod_img img-fluid" src="Assets/PROGRAMMA_PERDITA_PESO.png" alt="Card image cap"
+                        style="width: 8em;">
                     <div class="card-body">
                         <h5 class="card-title prod_name">PROGRAMMA PERDITA PESO</h5>
                         <p class="card-text prod_text">«Il tuo kit completo per dimagrire con gusto, depurare, drenare
@@ -134,8 +140,10 @@
         <!--4th Prod -->
         <div class="col-md-4 col-sm-6 col-lg-3  ">
             <a class="nodecoration" target="_blank" href="https://club24hl.goherbalife.com/Catalog/Product/Combo/it-IT/8">
-                <div class="card  prod_feature first_row_card  " data-aos="fade-down" data-aos-easing="linear" data-aos-duration="900" data-aos-once="true">
-                    <img class="card-img-top prod_img img-fluid" src="Assets/WORKOUT_SPORT_DI_FORZA.png" alt="Card image cap" style="width: 8em;">
+                <div class="card  prod_feature first_row_card  " data-aos="fade-down" data-aos-easing="linear"
+                    data-aos-duration="900" data-aos-once="true">
+                    <img class="card-img-top prod_img img-fluid" src="Assets/WORKOUT_SPORT_DI_FORZA.png" alt="Card image cap"
+                        style="width: 8em;">
                     <div class="card-body">
                         <h5 class="card-title prod_name">WORKOUT SPORT DI FORZA</h5>
                         <p class="card-text prod_text">«Il tuo alleato per la palestra. Aumento massa, energia e
@@ -155,8 +163,10 @@
         <div class="col-lg-offset-3"></div>
         <div class=" col-md-4 col-sm-6 col-lg-3 ">
             <a class="nodecoration" target="_blank" href="https://club24hl.goherbalife.com/Catalog/Product/Combo/it-IT/7">
-                <div class="card   prod_feature second_row_card " data-aos="fade-down" data-aos-easing="linear" data-aos-duration="950" data-aos-once="true">
-                    <img class="card-img-top  prod_img img-fluid" src="Assets/WORKOUT_SPORT_DI_RESISTENZA.png" alt="Card image cap" style="width: 8em;">
+                <div class="card   prod_feature second_row_card " data-aos="fade-down" data-aos-easing="linear"
+                    data-aos-duration="950" data-aos-once="true">
+                    <img class="card-img-top  prod_img img-fluid" src="Assets/WORKOUT_SPORT_DI_RESISTENZA.png" alt="Card image cap"
+                        style="width: 8em;">
                     <div class="card-body">
                         <h5 class="card-title prod_name">WORKOUT SPORT DI RESISTENZA</h5>
                         <p class="card-text prod_text">«Il tuo Kit contro la fatica e un complice per il recupero
@@ -171,8 +181,10 @@
         <!--6th Prod -->
         <div class="col-md-4 col-sm-6 col-lg-3 ">
             <a class="nodecoration" target="_blank" href="https://club24hl.goherbalife.com/Catalog/Product/Combo/it-IT/6">
-                <div class="card  prod_feature second_row_card  " data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1000" data-aos-once="true">
-                    <img class="card-img-top prod_img img-fluid" src="Assets/VITAMINE_E_MINERALI_PER_DONNA.png" alt="Card image cap" style="width: 8em;">
+                <div class="card  prod_feature second_row_card  " data-aos="fade-down" data-aos-easing="linear"
+                    data-aos-duration="1000" data-aos-once="true">
+                    <img class="card-img-top prod_img img-fluid" src="Assets/VITAMINE_E_MINERALI_PER_DONNA.png" alt="Card image cap"
+                        style="width: 8em;">
                     <div class="card-body">
                         <h5 class="card-title prod_name">VITAMINE E MINERALI PER DONNA</h5>
                         <p class="card-text prod_text">«Il pieno di vitamine e minerali per tutti i giorni contro la
@@ -298,22 +310,6 @@
 <div class="swiper-container">
     <div class="swiper-wrapper">
         <div class="swiper-slide customcard slide1">
-            <img class="profileimg" src="Assets/SonoSimona.png" alt="">
-            <h1 class="clientname">Sono Simona </h1>
-            <div class="ratinStars">
-                <span class="fa fa-star checked"></span>
-                <span class="fa fa-star checked"></span>
-                <span class="fa fa-star checked"></span>
-                <span class="fa fa-star checked"></span>
-                <span class="fa fa-star checked"></span>
-            </div>
-            <p class="SlidePara">Rinieri ex Capitano della Nazionale di Pallavolo con cui ho vinto anche un Mondiale.
-                Conosco Stefano da diversi anni e con i suoi consigli sulla nutrizione e con l’uso dei prodotti Herbalife ho affrontato gli ultimi anni della mia carriera da professionista.
-                Bravo Coach sempre disponibile.
-                Grazie Stefano!
-            </p>
-        </div>
-        <div class="swiper-slide customcard slide1">
             <img class="profileimg" src="Assets/MariaLuisaCatalano.png" alt="">
             <h1 class="clientname" id="Fclient">Maria Luisa Catalano</h1>
             <div class="ratinStars">
@@ -401,7 +397,7 @@
             <br><br><br>
             <div class="whatsapp-api text-center">
                 <button class="btn whatsapp-border">
-                    <a href="https://web.whatsapp.com/send?phone=393401571447" target="_blank">
+                    <a href="https://web.whatsapp.com/send?phone=212707041997" target="_blank">
 
                         <img class="whatsapp-logo" width="40px" height="40px" viewBox="0 0 92 92" src="Assets/whatsapp-logo.png" />
                         <span class="whatsapp-text">Vuoi saperne di più? </span>
@@ -417,7 +413,7 @@
                 <br>
                 <br>
                 <br>
-                <span class="num_tel">+39 340 157 1447</span>
+                <span class="num_tel">+39 707 041 997</span>
                 <br><br><br><br><br>
                 <div class="box message">
                     <span data-num="1">Or send message</span>
@@ -437,10 +433,11 @@
                             <input type="text" name="subject" class="form-control" id="inputsubject" placeholder="Subject">
                         </div>
                         <div class="form-group col-md-12">
-                            <textarea name="message" rows="8" cols="80" class="form-control" id="inputmessage" placeholder="Message"></textarea>
+                            <textarea name="message" rows="8" cols="80" class="form-control" id="inputmessage"
+                                placeholder="Message"></textarea>
                         </div>
                         <br>
-                        <button type="submit" class="btn btn_contact col-md-12">Sottoscrivi</button>
+                        <button type="submit" class="btn btn_contact col-md-12">Submit</button>
                     </div>
                 </form>
             </div>
