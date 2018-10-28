@@ -32,37 +32,31 @@
 
 <!-- SLIDERS -->
 <section class="slides section2">
-    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+    <div id="Productsslider" class="carousel slide" data-ride="carousel">
         <ol class="carousel-indicators">
-            <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-            <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+            <li data-target="#Productsslider" data-slide-to="0" class="active"></li>
+            <li data-target="#Productsslider" data-slide-to="1"></li>
+            <li data-target="#Productsslider" data-slide-to="2"></li>
         </ol>
         <div class="carousel-inner whitebordercarousel">
             <div class="carousel-item active">
-                <img class="d-block w-100" src="Assets/slide1.png" alt="First slide">
-                <button class="btn productbutton"><span class="Acquista">Acquistare Ora</span>
-                    <img src="Assets/Arrowbutton.png" class="arrow">
-                </button>
+                <img class="d-block w-100" src="Assets/slide-1.png" alt="WORKOUT SPORT DI FORZA">
+                <a class="btn productbutton" target="_blank" href="https://club24hl.goherbalife.com/Catalog/Product/Combo/it-IT/8"></a>
             </div>
             <div class="carousel-item">
-                <img class="d-block w-100" src="Assets/slide1.png" alt="Second slide">
-                <button class="btn productbutton">Acquistare Ora
-                    <img src="Assets/Arrowbutton.png" class="arrow">
-                </button>
+                <img class="d-block w-100" src="Assets/slide-2.png" alt="COLAZIONE EQUILIBRATA">
+                <a class="btn productbutton" target="_blank" href="https://club24hl.goherbalife.com/Catalog/Product/Combo/it-IT/9"></a>
             </div>
             <div class="carousel-item">
-                <img class="d-block w-100" src="Assets/slide1.png" alt="Third slide">
-                <button class="btn productbutton">Acquistare Ora
-                    <img src="Assets/Arrowbutton.png" class="arrow">
-                </button>
+                <img class="d-block w-100" src="Assets/slide-3.png" alt="PROGRAMMA PERDITA PESO">
+                <a class="btn productbutton" target="_blank" href="https://club24hl.goherbalife.com/Catalog/Product/Combo/it-IT/10"></a>
             </div>
         </div>
-        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+        <a class="carousel-control-prev" href="#Productsslider" role="button" data-slide="prev">
             <span class="carousel-control-prev-icon" aria-hidden="true"></span>
             <span class="sr-only">Previous</span>
         </a>
-        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+        <a class="carousel-control-next" href="#Productsslider" role="button" data-slide="next">
             <span class="carousel-control-next-icon" aria-hidden="true"></span>
             <span class="sr-only">Next</span>
         </a>
