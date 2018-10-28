@@ -20,7 +20,7 @@
                 <div class="form_sub">
                     <div class="form-group1 col-12">
                         <input type="email" name="mailSub" class="email" id="Email" placeholder="Email" required="">
-                        <button type="submit" name="submit" class="btn products">Subscribe</button>
+                        <button type="submit" name="submit" class="btn products">Sottoscrivi</button>
                     </div>
                 </div>
             </form>
@@ -413,7 +413,7 @@
                 <br>
                 <br>
                 <br>
-                <span class="num_tel">+39 707 041 997</span>
+                <span class="num_tel">+39 340 157 1447</span>
                 <br><br><br><br><br>
                 <div class="box message">
                     <span data-num="1">Or send message</span>
@@ -437,7 +437,7 @@
                                 placeholder="Message"></textarea>
                         </div>
                         <br>
-                        <button type="submit" class="btn btn_contact col-md-12">Submit</button>
+                        <button type="submit" class="btn btn_contact col-md-12">Sottoscrivi</button>
                     </div>
                 </form>
             </div>
