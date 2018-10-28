@@ -1450,3 +1450,9 @@ input[type="checkbox"]:checked+.slider:before {
         height: 600px !important;
         width: 1000px !important;
 }
+/*privacy_policy  by Ismail*/
+.privacy_policy li{
+    list-style: none;
+
+    padding-top: 15px;
+}
