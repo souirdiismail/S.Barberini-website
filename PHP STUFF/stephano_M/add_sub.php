@@ -11,7 +11,7 @@ if(isset($_POST['submit'])) {
     $conn = $GLOBALS["conn"];
     $query="INSERT INTO `subscribers`(`email`, `datesub`) VALUES ('$email','".date('y-m-d')."')";    
     if ($conn->query($query) === TRUE) {
-        echo "New record created successfully";
+        echo '<script>alert("New record created successfully")</script>';
         $conn->close();
         header( 'Location: index');
     } else {

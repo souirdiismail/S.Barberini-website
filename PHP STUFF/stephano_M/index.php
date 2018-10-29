@@ -309,7 +309,7 @@
 <!-- Swiper -->
 <div class="swiper-container">
     <div class="swiper-wrapper">
-        <div class="swiper-slide customcard slide1">
+        <div class="swiper-slide customcard slide3">
             <img class="profileimg" src="Assets/MariaLuisaCatalano.png" alt="">
             <h1 class="clientname" id="Fclient">Maria Luisa Catalano</h1>
             <div class="ratinStars">
@@ -324,7 +324,7 @@
                 A casa mia facciamo tutti la colazione equilibrata visto che è anche buona
             </p>
         </div>
-        <div class="swiper-slide customcard slide2">
+        <div class="swiper-slide customcard slide3">
             <img class="profileimg" src="Assets/FedericaBega.png" alt="">
             <h1 class="clientname">Federica Bega</h1>
             <div class="ratinStars">
@@ -352,7 +352,7 @@
             <p class="SlidePara">Un vero professionista, sempre disponibile nel fornire consigli su alimentazione ed
                 attivitá fisica. Consigliatissimo!</p>
         </div>
-        <div class="swiper-slide customcard slide1">
+        <div class="swiper-slide customcard slide3">
             <img class="profileimg" src="Assets/FedericaGelli.png" alt="">
             <h1 class="clientname">Federica Gelli</h1>
             <div class="ratinStars">
@@ -367,7 +367,7 @@
                 soprattutto mi ha fatto ritrovare la forma fisica che volevo!! È formidabile anche nello sport, ho
                 partecipato ad un suo allenamento, divertimento e professionalità al top</p>
         </div>
-        <div class="swiper-slide customcard slide2">
+        <div class="swiper-slide customcard slide3">
             <img class="profileimg" src="Assets/SilviaMedda.png" alt="">
             <h1 class="clientname">Silvia Medda</h1>
             <div class="ratinStars">

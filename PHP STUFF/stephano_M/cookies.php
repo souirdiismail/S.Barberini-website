@@ -14,7 +14,7 @@ In qualsiasi momento è possibile modificare o revocare il proprio consenso dall
 
 Scopra di più su chi siamo, come può contattarci e come trattiamo i dati personali nella nostra Informativa sulla privacy.
 
-Il suo consenso si applica ai seguenti siti web: www.stefanobarberini.com
+Il suo consenso si applica ai seguenti siti web: www.stefanobarberini-club24hl.com
 <br>
 
 Il suo stato attuale: Usa solo i cookie necessari . <span><strong>Modifica il suo consenso</strong></span>
@@ -43,7 +43,7 @@ I cookie necessari aiutano a contribuire a rendere fruibile un sito web abilitan
   <tbody>
     <tr>
       <th scope="row">CookieConsent</th>
-      <td>stefanobarberini-club24hl.com</td>
+      <td>www.stefanobarberini-club24hl.com</td>
       <td>Memorizza lo stato del consenso ai cookie dell'utente per il dominio corrente</td>
       <td>1 anno</td>
       <td>HTTP Cookie</td>
