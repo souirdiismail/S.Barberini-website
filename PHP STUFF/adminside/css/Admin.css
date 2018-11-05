@@ -1,0 +1,39 @@
+body {
+  background-image: linear-gradient(to top, #e6e9f0 0%, #eef1f5 100%);
+}
+
+.Mygrid {
+    height: 100%;
+    display:grid;
+    grid-template-columns: 200px auto;
+    grid-template-areas: "side main";
+}
+
+.Sidera {
+    grid-area: side;
+    height: 100vh;
+    background-image: linear-gradient(60deg, #29323c 0%, #485563 100%);
+}
+
+footer {
+  position: fixed;
+    left: 0px;
+    bottom: 0px;
+    width: 100%;
+} 
+
+.flat-imagebox .item {
+    float: left;
+    padding: 0 15px;
+    width: 25%;
+    z-index: 99;
+    position: relative;
+}
+
+.form-control{
+    text-align: center;
+}
+
+main{
+    height: 100vh;
+}
