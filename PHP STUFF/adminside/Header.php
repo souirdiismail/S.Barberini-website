@@ -81,6 +81,22 @@
                                 </ul>
                             </div>
                         </li>
+                        <li>
+                            <a class="collapsible-header waves-effect arrow-r">
+                                <i class="fa fa-chevron-right"></i> Newsletter
+                                <i class="fa fa-angle-down rotate-icon"></i>
+                            </a>
+                            <div class="collapsible-body">
+                                <ul class="list-unstyled">
+                                    <li>
+                                        <a href="delete.php?type=newsletter" class="waves-effect">Newsletters</a>
+                                    </li>
+                                    <li>
+                                        <a href="account_add.php?type=newsletter" class="waves-effect">Add a newsletter</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </li>
                     </ul>
                 </li>
                 <!--/. Side navigation links -->

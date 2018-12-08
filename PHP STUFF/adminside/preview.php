@@ -1,3 +1,15 @@
+<?php
+$servername = "localhost";
+$username = "root";
+$password = "";
+$dbname="stefanobarberinidb";
+$GLOBALS['conn'] = new mysqli($servername, $username, $password,$dbname);
+$conn = $GLOBALS['conn'];
+	$sql = "select * from ".$_POST["table"]." where id=".$_POST["ID"];
+	$result = $conn->query($sql);
+while ($row = mysqli_fetch_row($result))
+{?>
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -26,13 +38,15 @@
                 <h2 style="font-size:31px;line-height:1.1; color:#00c5a7; font-family:Lato,Helvetica,Arial,sans-serif;letter-spacing:-0.6px;margin:0 0 25px">
                     Grazie per esserti iscritto al Club 24Hl!
                 </h2>
+                <h2 style="font-size:31px;line-height:1.1; color:#00c5a7; font-family:Lato,Helvetica,Arial,sans-serif;letter-spacing:-0.6px;margin:0 0 25px">
+                    <?php echo $row[1]; ?>
+                </h2>
 
                 <p style="font-family:Lato,&quot;Lucida Grande&quot;,&quot;Lucida Sans Unicode&quot;,Tahoma,sans-serif!important;line-height:1.4;font-size:17px">
                     Corso numero 3
                 </p>
                 <p style="font-family:Lato,&quot;Lucida Grande&quot;,&quot;Lucida Sans Unicode&quot;,Tahoma,sans-serif!important;line-height:1.4;font-size:17px">SE SBAGLI LA COLAZIONE SEI FRITTO :</p>
-                <iframe width="560" height="315" src="https://www.youtube.com/embed/CaCKw1P7wxc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-                    allowfullscreen></iframe>
+                <a href="<?php echo $row[3]; ?>"><span><img src="<?php echo $row[4]; ?>" alt=""></span></a>
                 <p style="font-family:Lato,&quot;Lucida Grande&quot;,&quot;Lucida Sans Unicode&quot;,Tahoma,sans-serif!important;line-height:1.4;font-size:17px">
                     <a href="https://www.youtube.com/channel/UCtqqPWCnNwsFIBlJfqkUIxg"
                         style="text-decoration:none;color:#fff;font-size:15px;line-height:18px;font-weight:bold;background-color:#00c5a7;border-radius:4px;display:inline-block;padding:12px"
@@ -48,5 +62,7 @@
         </div>
     </div> 
 </body>
-
+<?php }
+echo $_POST["ID"]."   ".$_POST["table"];
+?>
 </html>

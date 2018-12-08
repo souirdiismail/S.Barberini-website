@@ -44,3 +44,29 @@ Create table users(
     password_ varchar(500),
     rights int
 );
+INSERT INTO `stefanobarberinidb`.`coach`
+(`id`,
+`email`,
+`fullname`,
+`mail_subject`,
+`content`,
+`datemail`,
+`confirmed`)
+VALUES
+(<{id: }>,
+<{email: }>,
+<{fullname: }>,
+<{mail_subject: }>,
+<{content: }>,
+<{datemail: }>,
+<{confirmed: }>);
+
+INSERT INTO `stefanobarberinidb`.`subscribers`
+(`id`,
+`email`,
+`datesub`)
+VALUES
+(<{id: }>,
+<{email: }>,
+<{datesub: }>);
+
