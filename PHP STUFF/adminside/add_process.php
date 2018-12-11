@@ -38,4 +38,9 @@ else
 {
 	echo 'Post not sent';
 }
+
+	function constructquery($who){
+		
+	}
+
 ?>

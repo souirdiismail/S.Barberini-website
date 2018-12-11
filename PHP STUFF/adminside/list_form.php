@@ -56,13 +56,22 @@ function show_Fill_form($tablename){
 		$sql = "select * from ".$tablename;
 		$result = $conn->query($sql);
 		echo '<form action="add_process.php" method="POST"><input name="type" type="hidden" id="who" value="'.$tablename.'">';
-		for ($i=1; $i < $conn->field_count-1; $i++) {
-			if ($i!=2) {
+		if($tablename != "newsletter"){	
+			for ($i=1; $i < $conn->field_count-1; $i++) {
+				if ($i!=2) {
 					echo'<label for="'.mysqli_fetch_field_direct($result,$i)->name.'" class="grey-text">'.strtoupper(mysqli_fetch_field_direct($result,$i)->name).'</label>
 					<input required="true" type="text" name="'.mysqli_fetch_field_direct($result,$i)->name.'" class="form-control"><br>';
+				}
+			}
+		}else{
+			for ($i=1; $i < $conn->field_count-1; $i++) {
+				if ($i!=4) {
+					echo'<label for="'.mysqli_fetch_field_direct($result,$i)->name.'" class="grey-text">'.strtoupper(mysqli_fetch_field_direct($result,$i)->name).'</label>
+					<input required="true" type="text" name="'.mysqli_fetch_field_direct($result,$i)->name.'" class="form-control"><br>';
+				}
 			}
 		}
-		echo'<div class="text-center mt-4"><button class="btn btn-outline-success" type="submit" name="submit" value="submit"><strong>Add</strong></button></div></form>'
+			echo'<div class="text-center mt-4"><button class="btn btn-outline-success" type="submit" name="submit" value="submit"><strong>Add</strong></button></div></form>'
 		;
 	}else {
 		header( 'Location: admin.php');
