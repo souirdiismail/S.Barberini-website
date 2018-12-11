@@ -22,7 +22,7 @@ while ($row = mysqli_fetch_row($result))
 
 <body>
 
-    <div  style="background: url(\'Assets/msg-header.png\') no-repeat center;
+    <div  style="background: url(Assets/msg-header.png) no-repeat center;
     background-size: cover; padding:10px 0">
         <div style="width:600px;max-width:100%;margin:0 auto" align="left">
             <div  style="padding-right:2.5%;padding-left:2.5%;margin:0 auto">
@@ -43,7 +43,7 @@ while ($row = mysqli_fetch_row($result))
                 </h2>
 
                 <p style="font-family:Lato,&quot;Lucida Grande&quot;,&quot;Lucida Sans Unicode&quot;,Tahoma,sans-serif!important;line-height:1.4;font-size:17px">
-                    Corso numero 3
+                    Corso numero <?php echo $row[0]; ?>
                 </p>
                 <p style="font-family:Lato,&quot;Lucida Grande&quot;,&quot;Lucida Sans Unicode&quot;,Tahoma,sans-serif!important;line-height:1.4;font-size:17px">SE SBAGLI LA COLAZIONE SEI FRITTO :</p>
                 <a href="<?php echo $row[3]; ?>"><span><img src="<?php echo $row[4]; ?>" alt=""></span></a>
@@ -53,6 +53,7 @@ while ($row = mysqli_fetch_row($result))
                         target="_blank" >
                         Visite Our Channel</a>
                 </p>
+                <p style="font-family:Lato,&quot;Lucida Grande&quot;,&quot;Lucida Sans Unicode&quot;,Tahoma,sans-serif!important;line-height:1.4;font-size:17px"><?php echo $row[2]; ?></p>
             </div>
             <hr>
             <p style="font-size:15px;line-height:1.1; font-weight: 600; color:#00c5a7; font-family:Lato,Helvetica,Arial,sans-serif;letter-spacing:-0.6px;margin:0 0 25px; text-align: center;">
@@ -63,6 +64,6 @@ while ($row = mysqli_fetch_row($result))
     </div> 
 </body>
 <?php }
-echo $_POST["ID"]."   ".$_POST["table"];
+
 ?>
 </html>
