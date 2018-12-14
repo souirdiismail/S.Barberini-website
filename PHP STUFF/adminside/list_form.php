@@ -127,8 +127,15 @@ function show_Delete_form($tablename){
 			echo'<i class="fa fa-eye" aria-hidden="true">';
 		}
 		echo '</i></strong></button></form></th>';/*.$row[0];*/
-		for ($i=0; $i < $conn->field_count; $i++) { 
-			echo '<td>'.$row[$i].'</td>';
+		for ($i=0; $i < $conn->field_count; $i++) {
+			if($tablename == "newsletter" && strlen($row[$i])>100)
+			{
+				$value = substr($row[$i],0,100)." ...";
+			}else{
+				$value = $row[$i];
+			}
+			echo '<td>'.$value.'</td>';
+			
 		}
 		echo '</tr>';
 	}

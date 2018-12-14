@@ -43,7 +43,7 @@ if(isset($_POST['submit'])) {
 		}
 		else
 		{
-			$sql ="INSERT INTO `simonarinieridb`.`".$who."` (`title`, `content`, `url`, `thumbnail`) VALUES ('".$values[1]."','".$values[2]."','".$values[3]."','".$thumbnail."');";
+			$sql ="INSERT INTO `stefanobarberinidb`.`".$who."` (`title`, `content`, `url`, `thumbnail`) VALUES ('".$values[1]."','".$values[2]."','".$values[3]."','".$thumbnail."');";
 		}
 	}
 
@@ -53,14 +53,14 @@ if(isset($_POST['submit'])) {
 	} else {
 		echo "Error: " . $sql . "<br>" . $conn->error;
 	}
-
+	/*
 	$conn->close();
 	while (ob_get_status()) 
 	{
 	    ob_end_clean();
 	}
 	header( 'Location: admin.php');
-	}
+	*/}
 else
 {
 	echo 'Post not sent';
