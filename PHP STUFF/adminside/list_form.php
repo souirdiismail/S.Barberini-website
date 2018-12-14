@@ -71,8 +71,7 @@ function show_Fill_form($tablename){
 				}
 			}
 		}
-			echo'<div class="text-center mt-4"><button class="btn btn-outline-success" type="submit" name="submit" value="submit"><strong>Add</strong></button></div></form>'
-		;
+			echo'<div class="text-center mt-4"><button class="btn btn-outline-success" type="submit" name="submit" value="submit"><strong>Add</strong></button></div></form>';
 	}else {
 		header( 'Location: admin.php');
 	}
